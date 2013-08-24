@@ -1,1 +1,1 @@
-web: gunicorn igreja.wsgi
+web: gunicorn igreja_cadastro.wsgi
