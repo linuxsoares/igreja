@@ -8,27 +8,51 @@
  
 <title>Cadastro de Fiéis</title>
  
-<link type="text/css" href="{{ STATIC_URL }}css/style.css" rel="stylesheet" media="screen" />
+<!--<link type="text/css" href="{{ STATIC_URL }}css/style.css" rel="stylesheet" media="screen" />-->
+<link href="{{ STATIC_URL }}css/bootstrap.min.css" rel="stylesheet" media="screen">
+<link href="{{ STATIC_URL }}css/bootstrap-responsive.min.css" rel="stylesheet"  />
+<link href="{{ STATIC_URL }}css/bootstrap-sticky-footer.css" rel="stylesheet" />
+<style>
+    .invisivel{
+        display: none;
+    }
+
+    .credit{
+        margin-top: 20px;
+    }
+</style>
  
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.0/jquery.min.js"></script>
 </head>
 <body>
+<div class="navbar">
+    <div class="navbar-inner">
+        <a class="brand" href="#">MPC</a>
+        <ul class="nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Cadastro</a></li>
+        </ul>
+    </div>
+</div>
 <div id="page">
 <div id="header">
 <center>
-<img src="{{ STATIC_URL }}img/logo.png" alt="EventeX" />
+    <img src="{{ STATIC_URL }}img/logo.png" alt="EventeX"/>
 </center>
 </div>
-<hr>
-<div id="content">
-<h1>Bem-vindo ao Site de Cadastro de Fiéis!</h1>
-<p>Home de acesso ao Cadastro dos Fiéis.</p>
-<p>Através deste sistema você poderá cadastrar todos os fiéis de sua igreja</p>
-<p>Para dúvidas e mais informações entre em contato com <a href="mailto:eventex@eventex.com.br">linux.soares@gmail.com</a></p>
+<div id="content" class="container-fluid" style="text-align: center">
+    <h1>Bem-vindo ao Site de Cadastro de Fiéis!</h1>
+    <p>Home de acesso ao Cadastro dos Fiéis.</p>
+    <p>Através deste sistema você poderá cadastrar todos os fiéis de sua igreja</p>
+    <p>Para dúvidas e mais informações entre em contato com <a href="mailto:eventex@eventex.com.br">jmarcos2702@gmail.com</a></p>
 </div>
-<hr>
+<br />
+<div id="push"></div>
+<div id="push"></div>
 <div id="footer">
-<p>&copy; 2012. <a rel="license" href="http://eventex.herike.com">EventeX</a>, some rights reserved. <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/br/80x15.png" /></a><a href="http://www.djangoproject.com/" id="django"><img src="https://djangoproject.com/s/img/badges/djangosite100x25.gif" border="0" alt="A Django site." title="A Django site." /></a></p>
+    <div class="container">
+        <p class="muted credit">&copy; 2012. <a rel="license" href="http://eventex.herike.com">EventeX</a>, some rights reserved. <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/br/80x15.png" /></a><a href="http://www.djangoproject.com/" id="django"><img src="https://djangoproject.com/s/img/badges/djangosite100x25.gif" border="0" alt="A Django site." title="A Django site." /></a></p>
+    </div>
 </div>
 </div>
 </body>

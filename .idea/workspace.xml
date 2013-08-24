@@ -7,8 +7,9 @@
     <file path="/settings.py" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1377363865143" ignored="false" />
     <file path="/urls.py" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1377359760730" ignored="false" />
     <file path="/views.py" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1377363574321" ignored="false" />
-    <file path="/index.html" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1377368748331" ignored="false" />
+    <file path="/index.html" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1377374121078" ignored="false" />
     <file path="/requirements.txt" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1377364124590" ignored="false" />
+    <file path="/bootstrap-sticky-footer.css" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1377373801639" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,22 +69,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/igreja_cadastro/core/static/css/style.css">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/igreja_cadastro/core/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="312" column="26" selection-start="3616" selection-end="3616" vertical-scroll-proportion="0.0">
+            <state line="48" column="6" selection-start="1680" selection-end="1680" vertical-scroll-proportion="0.49008498">
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#1;n#p#0;n#div#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap-sticky-footer.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/igreja_cadastro/core/static/css/bootstrap-sticky-footer.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="22" selection-start="485" selection-end="485" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/igreja_cadastro/core/templates/index.html">
+      <file leaf-file-name="bootstrap-responsive.min.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/igreja_cadastro/core/static/css/bootstrap-responsive.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="38" selection-start="625" selection-end="625" vertical-scroll-proportion="0.47368422">
-              <folding>
-                <element signature="n#style#0;n#img#0;n#a#1;n#p#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="8" column="1019" selection-start="1259" selection-end="1259" vertical-scroll-proportion="-4.6153846">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -103,6 +114,9 @@
         <option value="$PROJECT_DIR$/igreja_cadastro/settings.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/igreja_cadastro/urls.py" />
+        <option value="$PROJECT_DIR$/igreja_cadastro/core/static/css/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/igreja_cadastro/core/static/css/css" />
+        <option value="$PROJECT_DIR$/igreja_cadastro/core/static/css/bootstrap-sticky-footer.css" />
         <option value="$PROJECT_DIR$/igreja_cadastro/core/templates/index.html" />
       </list>
     </option>
@@ -238,6 +252,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="igreja" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="igreja" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="igreja_cadastro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -246,6 +286,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/igreja_cadastro/core/static/css" />
+    </key>
   </component>
   <component name="RunManager" selected="Django server.igreja">
     <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
@@ -340,9 +385,10 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32978722" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2495935" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2495935" sideWeight="0.67021275" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -350,7 +396,6 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -418,13 +463,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/igreja_cadastro/core/static/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="312" column="26" selection-start="3616" selection-end="3616" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/igreja_cadastro/core/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="38" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0">
@@ -446,15 +484,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/igreja_cadastro/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="23" selection-start="2720" selection-end="2720" vertical-scroll-proportion="-20.192308">
-          <folding>
-            <element signature="e#47#71#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/igreja_cadastro/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -471,11 +500,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/igreja_cadastro/core/static/css/bootstrap-responsive.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="1019" selection-start="1259" selection-end="1259" vertical-scroll-proportion="-4.6153846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/igreja_cadastro/core/static/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="22" selection-start="83632" selection-end="83638" vertical-scroll-proportion="0.23767605">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/igreja_cadastro/core/static/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="279" selection-end="279" vertical-scroll-proportion="0.37931034">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/igreja_cadastro/core/static/css/bootstrap-sticky-footer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="22" selection-start="485" selection-end="485" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/igreja_cadastro/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="23" selection-start="2720" selection-end="2720" vertical-scroll-proportion="-20.192308">
+          <folding>
+            <element signature="e#47#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/igreja_cadastro/core/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="38" selection-start="625" selection-end="625" vertical-scroll-proportion="0.47368422">
+        <state line="48" column="6" selection-start="1680" selection-end="1680" vertical-scroll-proportion="0.49008498">
           <folding>
-            <element signature="n#style#0;n#img#0;n#a#1;n#p#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#1;n#p#0;n#div#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
