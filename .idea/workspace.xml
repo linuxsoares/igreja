@@ -7,7 +7,7 @@
     <file path="/settings.py" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1377363865143" ignored="false" />
     <file path="/urls.py" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1377359760730" ignored="false" />
     <file path="/views.py" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1377363574321" ignored="false" />
-    <file path="/index.html" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1377363672287" ignored="false" />
+    <file path="/index.html" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1377368748331" ignored="false" />
     <file path="/requirements.txt" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1377364124590" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,10 +48,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/igreja_cadastro/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="8" selection-start="778" selection-end="778" vertical-scroll-proportion="0.5436573">
+            <state line="22" column="8" selection-start="778" selection-end="778" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#51#0" expanded="true" />
               </folding>
@@ -77,10 +77,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/igreja_cadastro/core/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="79" selection-start="869" selection-end="869" vertical-scroll-proportion="-15.625">
+            <state line="18" column="38" selection-start="625" selection-end="625" vertical-scroll-proportion="0.47368422">
               <folding>
                 <element signature="n#style#0;n#img#0;n#a#1;n#p#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -100,10 +100,10 @@
       <list>
         <option value="$PROJECT_DIR$/igreja_cadastro/core/static/css/style.css" />
         <option value="$PROJECT_DIR$/igreja_cadastro/core/views.py" />
-        <option value="$PROJECT_DIR$/igreja_cadastro/core/templates/index.html" />
         <option value="$PROJECT_DIR$/igreja_cadastro/settings.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/igreja_cadastro/urls.py" />
+        <option value="$PROJECT_DIR$/igreja_cadastro/core/templates/index.html" />
       </list>
     </option>
   </component>
@@ -169,6 +169,72 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="igreja_cadastro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="igreja" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="igreja" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="igreja_cadastro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="igreja" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="igreja" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="igreja_cadastro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="igreja" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="igreja" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="igreja_cadastro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -366,15 +432,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/igreja_cadastro/core/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="79" selection-start="869" selection-end="869" vertical-scroll-proportion="-15.625">
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#1;n#p#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="8" selection-start="75" selection-end="75" vertical-scroll-proportion="0.098846786">
@@ -407,9 +464,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/igreja_cadastro/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="8" selection-start="778" selection-end="778" vertical-scroll-proportion="0.5436573">
+        <state line="22" column="8" selection-start="778" selection-end="778" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/igreja_cadastro/core/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="38" selection-start="625" selection-end="625" vertical-scroll-proportion="0.47368422">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#1;n#p#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
