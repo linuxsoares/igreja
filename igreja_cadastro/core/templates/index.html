@@ -1,51 +1,5 @@
-<!doctype html>
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="description" content="EventeX" />
-<meta http-equiv='content-Language' content='en-US' />
-<link type="image/x-icon" href="{{ STATIC_URL }}favicon.ico" rel="shortcut icon" />
- 
-<title>Cadastro de Fiéis</title>
- 
-<!--<link type="text/css" href="{{ STATIC_URL }}css/style.css" rel="stylesheet" media="screen" />-->
-<link href="{{ STATIC_URL }}css/bootstrap.min.css" rel="stylesheet" media="screen">
-<link href="{{ STATIC_URL }}css/bootstrap-responsive.min.css" rel="stylesheet"  />
-<link href="{{ STATIC_URL }}css/bootstrap-sticky-footer.css" rel="stylesheet" />
-<style>
-    .invisivel{
-        display: none;
-    }
-
-    .credit{
-        margin-top: 20px;
-    }
-</style>
- 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.0/jquery.min.js"></script>
-<script>
-    function aviso(){
-        alert('Cadastro em Construção!!!');
-    }
-</script>
-</head>
-<body>
-<div class="navbar">
-    <div class="navbar-inner">
-        <a class="brand" href="#">Marchando para o Céu</a>
-        <ul class="nav">
-            <li><a href="/">Home</a></li>
-            <li><a href="/cadastro" onclick="aviso()">Cadastro</a></li>
-            <li><a href="/admin">Admin</a></li>
-        </ul>
-    </div>
-</div>
-<div id="page">
-<div id="header">
-<center>
-    <img src="{{ STATIC_URL }}img/logo.png" alt="Marchando para o Céu"/>
-</center>
-</div>
+{% extends 'base.html' %}
+{% block content %}
 <div id="content" class="container-fluid" style="text-align: center">
     <h1>Bem-vindo ao Site de Cadastro de Fiéis!</h1>
     <p>Home de acesso ao Cadastro dos Fiéis.</p>
@@ -60,6 +14,4 @@
         <p class="muted credit">&copy; 2013. <a rel="license" href="http://projetoigreja.com.br/marchandoparaoceu/">Marchando para o Céu</a>, some rights reserved. <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/br/80x15.png" /></a><a href="http://www.djangoproject.com/" id="django"><img src="https://djangoproject.com/s/img/badges/djangosite100x25.gif" border="0" alt="A Django site." title="A Django site." /></a></p>
     </div>
 </div>
-</div>
-</body>
-</html>
+{% endblock content %}

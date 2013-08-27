@@ -5,8 +5,9 @@ from django.conf import settings
 # from django.contrib import admin
 # admin.autodiscover()
 
-urlpatterns = patterns('igreja_cadastro.core.views',
-    url(r'^$', 'homepage', name='homepage'),
+urlpatterns = patterns('',
+    url(r'^$', 'igreja_cadastro.core.views.homepage', name='homepage'),
+    url(r'cadastro/$', 'igreja_cadastro.cadastro_fieis.views.cadastro',  name='cadastro'),
     # Examples:
     # url(r'^$', 'igreja_cadastro.views.home', name='home'),
     # url(r'^igreja_cadastro/', include('igreja_cadastro.foo.urls')),

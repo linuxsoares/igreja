@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% block content %}
+<form action="." method="POST">
+    {% csrf_token %}
+    <p>
+        <label for="{{ form.name.id_for_label }}">{{ form.name.label }}: </label>
+        {{ form.name }}
+        {{ form.name.errors }}
+    </p>
+    <p>
+        <label for="{{ form.sexo.id_for_label }}">{{ form.sexo.label }}: </label>
+        {{ form.sexo }}
+        {{ form.sexo.errors }}
+    </p>
+    <p>
+        <label for="{{ form.endereco.id_for_label }}">{{ form.endereco.label }}: </label>
+        {{ form.endereco }}
+        {{ form.endereco.errors }}
+    </p>
+    <p>
+        <label for="{{ form.numero.id_for_label }}">{{ form.numero.label }}: </label>
+        {{ form.numero }}
+        {{ form.numero.errors }}
+    </p>
+    <p>
+        <label for="{{ form.bairro.id_for_label }}">{{ form.bairro.label }}:</label>
+        {{ form.bairro }}
+        {{ form.bairro.errors }}
+    </p>
+    <p>
+        <label for="{{ form.cidade.id_for_label }}">{{ form.cidade.label }}: </label>
+        {{ form.cidade }}
+        {{ form.cidade.errors }}
+    </p>
+    <input type="submit" value="Enviar" class="button">
+
+</form>
+{% endblock content %}
