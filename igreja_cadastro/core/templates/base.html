@@ -21,7 +21,11 @@
         margin-top: 20px;
     }
 </style>
- 
+<script>
+    function aviso(){
+        alert('Admin não esta habilitado!')
+    }
+</script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.0/jquery.min.js"></script>
 
 </head>
@@ -32,7 +36,7 @@
         <ul class="nav">
             <li><a href="/">Home</a></li>
             <li><a href="/cadastro">Cadastro</a></li>
-            <li><a href="/admin">Admin</a></li>
+            <li><a href="/" onclick="aviso()">Admin</a></li>
         </ul>
     </div>
 </div>
