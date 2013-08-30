@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c31abcc-4196-4dea-b8c2-ccacc02126f0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/igreja_cadastro/core/static/js/bootstrap-tab.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/igreja_cadastro/core/templates/base.html" afterPath="$PROJECT_DIR$/igreja_cadastro/core/templates/base.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/templates/cadastro_fieis/cadastro_form.html" afterPath="$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/templates/cadastro_fieis/cadastro_form.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="igreja.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -17,7 +14,7 @@
     <file path="/bootstrap-sticky-footer.css" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1377373801639" ignored="false" />
     <file path="/Dummy.txt" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1377836325139" ignored="false" />
     <file path="/tests.py" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1377579921023" ignored="false" />
-    <file path="/cadastro_form.html" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1377843171651" ignored="false" />
+    <file path="/cadastro_form.html" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1377843592710" ignored="false" />
     <file path="/forms.py" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1377580623577" ignored="false" />
     <file path="/base.html" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1377842725901" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -78,7 +75,7 @@
       <file leaf-file-name="cadastro_form.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/templates/cadastro_fieis/cadastro_form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="201" column="30" selection-start="6420" selection-end="6420" vertical-scroll-proportion="0.5804196">
+            <state line="211" column="85" selection-start="6952" selection-end="6952" vertical-scroll-proportion="0.763986">
               <folding>
                 <element signature="e#213#239#0" expanded="true" />
                 <element signature="e#322#341#0" expanded="true" />
@@ -115,7 +112,7 @@
                 <element signature="e#5570#5589#0" expanded="true" />
                 <element signature="e#5781#5801#0" expanded="true" />
                 <element signature="e#5883#5902#0" expanded="true" />
-                <element signature="e#7237#7256#0" expanded="true" />
+                <element signature="e#7210#7229#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -705,7 +702,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/templates/cadastro_fieis/cadastro_form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="201" column="30" selection-start="6420" selection-end="6420" vertical-scroll-proportion="0.5804196">
+        <state line="211" column="85" selection-start="6952" selection-end="6952" vertical-scroll-proportion="0.763986">
           <folding>
             <element signature="e#213#239#0" expanded="true" />
             <element signature="e#322#341#0" expanded="true" />
@@ -742,7 +739,7 @@
             <element signature="e#5570#5589#0" expanded="true" />
             <element signature="e#5781#5801#0" expanded="true" />
             <element signature="e#5883#5902#0" expanded="true" />
-            <element signature="e#7237#7256#0" expanded="true" />
+            <element signature="e#7210#7229#0" expanded="true" />
           </folding>
         </state>
       </provider>
