@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7c31abcc-4196-4dea-b8c2-ccacc02126f0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/templates/cadastro_fieis/cadastro_form.html" afterPath="$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/templates/cadastro_fieis/cadastro_form.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="igreja.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -15,7 +14,7 @@
     <file path="/bootstrap-sticky-footer.css" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1377373801639" ignored="false" />
     <file path="/Dummy.txt" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1377836325139" ignored="false" />
     <file path="/tests.py" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1377579921023" ignored="false" />
-    <file path="/cadastro_form.html" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1377839780491" ignored="false" />
+    <file path="/cadastro_form.html" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1377840077611" ignored="false" />
     <file path="/forms.py" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1377580623577" ignored="false" />
     <file path="/base.html" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1377581673825" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -76,7 +75,7 @@
       <file leaf-file-name="cadastro_form.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/templates/cadastro_fieis/cadastro_form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="0" selection-start="1264" selection-end="1264" vertical-scroll-proportion="0.23601398">
+            <state line="93" column="28" selection-start="3038" selection-end="3038" vertical-scroll-proportion="0.7604895">
               <folding>
                 <element signature="e#107#133#0" expanded="true" />
                 <element signature="e#202#228#0" expanded="true" />
@@ -96,25 +95,25 @@
                 <element signature="e#2667#2687#0" expanded="true" />
                 <element signature="e#2772#2791#0" expanded="true" />
                 <element signature="e#2951#2971#0" expanded="true" />
-                <element signature="e#3143#3162#0" expanded="true" />
-                <element signature="e#3350#3370#0" expanded="true" />
-                <element signature="e#3452#3471#0" expanded="true" />
-                <element signature="e#3656#3676#0" expanded="true" />
-                <element signature="e#3758#3777#0" expanded="true" />
-                <element signature="e#4038#4057#0" expanded="true" />
-                <element signature="e#4264#4284#0" expanded="true" />
-                <element signature="e#4366#4385#0" expanded="true" />
-                <element signature="e#4578#4598#0" expanded="true" />
-                <element signature="e#4680#4699#0" expanded="true" />
-                <element signature="e#4869#4889#0" expanded="true" />
-                <element signature="e#4971#4990#0" expanded="true" />
-                <element signature="e#5163#5183#0" expanded="true" />
-                <element signature="e#5265#5284#0" expanded="true" />
-                <element signature="e#5491#5511#0" expanded="true" />
-                <element signature="e#5593#5612#0" expanded="true" />
-                <element signature="e#5804#5824#0" expanded="true" />
-                <element signature="e#5906#5925#0" expanded="true" />
-                <element signature="e#6430#6449#0" expanded="true" />
+                <element signature="e#3146#3165#0" expanded="true" />
+                <element signature="e#3353#3373#0" expanded="true" />
+                <element signature="e#3455#3474#0" expanded="true" />
+                <element signature="e#3659#3679#0" expanded="true" />
+                <element signature="e#3761#3780#0" expanded="true" />
+                <element signature="e#4041#4060#0" expanded="true" />
+                <element signature="e#4267#4287#0" expanded="true" />
+                <element signature="e#4369#4388#0" expanded="true" />
+                <element signature="e#4581#4601#0" expanded="true" />
+                <element signature="e#4683#4702#0" expanded="true" />
+                <element signature="e#4872#4892#0" expanded="true" />
+                <element signature="e#4974#4993#0" expanded="true" />
+                <element signature="e#5166#5186#0" expanded="true" />
+                <element signature="e#5268#5287#0" expanded="true" />
+                <element signature="e#5494#5514#0" expanded="true" />
+                <element signature="e#5596#5615#0" expanded="true" />
+                <element signature="e#5807#5827#0" expanded="true" />
+                <element signature="e#5909#5928#0" expanded="true" />
+                <element signature="e#6433#6452#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -686,7 +685,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/templates/cadastro_fieis/cadastro_form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="1264" selection-end="1264" vertical-scroll-proportion="0.23601398">
+        <state line="93" column="28" selection-start="3038" selection-end="3038" vertical-scroll-proportion="0.7604895">
           <folding>
             <element signature="e#107#133#0" expanded="true" />
             <element signature="e#202#228#0" expanded="true" />
@@ -706,25 +705,25 @@
             <element signature="e#2667#2687#0" expanded="true" />
             <element signature="e#2772#2791#0" expanded="true" />
             <element signature="e#2951#2971#0" expanded="true" />
-            <element signature="e#3143#3162#0" expanded="true" />
-            <element signature="e#3350#3370#0" expanded="true" />
-            <element signature="e#3452#3471#0" expanded="true" />
-            <element signature="e#3656#3676#0" expanded="true" />
-            <element signature="e#3758#3777#0" expanded="true" />
-            <element signature="e#4038#4057#0" expanded="true" />
-            <element signature="e#4264#4284#0" expanded="true" />
-            <element signature="e#4366#4385#0" expanded="true" />
-            <element signature="e#4578#4598#0" expanded="true" />
-            <element signature="e#4680#4699#0" expanded="true" />
-            <element signature="e#4869#4889#0" expanded="true" />
-            <element signature="e#4971#4990#0" expanded="true" />
-            <element signature="e#5163#5183#0" expanded="true" />
-            <element signature="e#5265#5284#0" expanded="true" />
-            <element signature="e#5491#5511#0" expanded="true" />
-            <element signature="e#5593#5612#0" expanded="true" />
-            <element signature="e#5804#5824#0" expanded="true" />
-            <element signature="e#5906#5925#0" expanded="true" />
-            <element signature="e#6430#6449#0" expanded="true" />
+            <element signature="e#3146#3165#0" expanded="true" />
+            <element signature="e#3353#3373#0" expanded="true" />
+            <element signature="e#3455#3474#0" expanded="true" />
+            <element signature="e#3659#3679#0" expanded="true" />
+            <element signature="e#3761#3780#0" expanded="true" />
+            <element signature="e#4041#4060#0" expanded="true" />
+            <element signature="e#4267#4287#0" expanded="true" />
+            <element signature="e#4369#4388#0" expanded="true" />
+            <element signature="e#4581#4601#0" expanded="true" />
+            <element signature="e#4683#4702#0" expanded="true" />
+            <element signature="e#4872#4892#0" expanded="true" />
+            <element signature="e#4974#4993#0" expanded="true" />
+            <element signature="e#5166#5186#0" expanded="true" />
+            <element signature="e#5268#5287#0" expanded="true" />
+            <element signature="e#5494#5514#0" expanded="true" />
+            <element signature="e#5596#5615#0" expanded="true" />
+            <element signature="e#5807#5827#0" expanded="true" />
+            <element signature="e#5909#5928#0" expanded="true" />
+            <element signature="e#6433#6452#0" expanded="true" />
           </folding>
         </state>
       </provider>
