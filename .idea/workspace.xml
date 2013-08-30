@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c31abcc-4196-4dea-b8c2-ccacc02126f0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/igreja_cadastro/core/static/js/bootstrap-tab.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/igreja_cadastro/core/templates/base.html" afterPath="$PROJECT_DIR$/igreja_cadastro/core/templates/base.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/templates/cadastro_fieis/cadastro_form.html" afterPath="$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/templates/cadastro_fieis/cadastro_form.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="igreja.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -14,9 +17,9 @@
     <file path="/bootstrap-sticky-footer.css" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1377373801639" ignored="false" />
     <file path="/Dummy.txt" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1377836325139" ignored="false" />
     <file path="/tests.py" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1377579921023" ignored="false" />
-    <file path="/cadastro_form.html" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1377840077611" ignored="false" />
+    <file path="/cadastro_form.html" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1377843171651" ignored="false" />
     <file path="/forms.py" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1377580623577" ignored="false" />
-    <file path="/base.html" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1377581673825" ignored="false" />
+    <file path="/base.html" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1377842725901" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +69,7 @@
       <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/igreja_cadastro/core/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="26" selection-start="1255" selection-end="1255" vertical-scroll-proportion="0.0">
+            <state line="25" column="8" selection-start="853" selection-end="853" vertical-scroll-proportion="-12.5">
               <folding />
             </state>
           </provider>
@@ -75,63 +78,53 @@
       <file leaf-file-name="cadastro_form.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/templates/cadastro_fieis/cadastro_form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="28" selection-start="3038" selection-end="3038" vertical-scroll-proportion="0.7604895">
+            <state line="201" column="30" selection-start="6420" selection-end="6420" vertical-scroll-proportion="0.5804196">
               <folding>
-                <element signature="e#107#133#0" expanded="true" />
-                <element signature="e#202#228#0" expanded="true" />
-                <element signature="e#348#367#0" expanded="true" />
-                <element signature="e#498#519#0" expanded="true" />
-                <element signature="e#661#680#0" expanded="true" />
-                <element signature="e#818#838#0" expanded="true" />
-                <element signature="e#1010#1029#0" expanded="true" />
-                <element signature="e#1217#1237#0" expanded="true" />
-                <element signature="e#1319#1338#0" expanded="true" />
-                <element signature="e#1520#1539#0" expanded="true" />
-                <element signature="e#1621#1640#0" expanded="true" />
-                <element signature="e#1903#1922#0" expanded="true" />
-                <element signature="e#2185#2204#0" expanded="true" />
-                <element signature="e#2374#2393#0" expanded="true" />
-                <element signature="e#2475#2494#0" expanded="true" />
-                <element signature="e#2667#2687#0" expanded="true" />
-                <element signature="e#2772#2791#0" expanded="true" />
-                <element signature="e#2951#2971#0" expanded="true" />
-                <element signature="e#3146#3165#0" expanded="true" />
-                <element signature="e#3353#3373#0" expanded="true" />
-                <element signature="e#3455#3474#0" expanded="true" />
-                <element signature="e#3659#3679#0" expanded="true" />
-                <element signature="e#3761#3780#0" expanded="true" />
-                <element signature="e#4041#4060#0" expanded="true" />
-                <element signature="e#4267#4287#0" expanded="true" />
-                <element signature="e#4369#4388#0" expanded="true" />
-                <element signature="e#4581#4601#0" expanded="true" />
-                <element signature="e#4683#4702#0" expanded="true" />
-                <element signature="e#4872#4892#0" expanded="true" />
-                <element signature="e#4974#4993#0" expanded="true" />
-                <element signature="e#5166#5186#0" expanded="true" />
-                <element signature="e#5268#5287#0" expanded="true" />
-                <element signature="e#5494#5514#0" expanded="true" />
-                <element signature="e#5596#5615#0" expanded="true" />
-                <element signature="e#5807#5827#0" expanded="true" />
-                <element signature="e#5909#5928#0" expanded="true" />
-                <element signature="e#6433#6452#0" expanded="true" />
+                <element signature="e#213#239#0" expanded="true" />
+                <element signature="e#322#341#0" expanded="true" />
+                <element signature="e#472#493#0" expanded="true" />
+                <element signature="e#635#654#0" expanded="true" />
+                <element signature="e#792#812#0" expanded="true" />
+                <element signature="e#984#1003#0" expanded="true" />
+                <element signature="e#1191#1211#0" expanded="true" />
+                <element signature="e#1293#1312#0" expanded="true" />
+                <element signature="e#1494#1513#0" expanded="true" />
+                <element signature="e#1595#1614#0" expanded="true" />
+                <element signature="e#1877#1896#0" expanded="true" />
+                <element signature="e#2159#2178#0" expanded="true" />
+                <element signature="e#2348#2367#0" expanded="true" />
+                <element signature="e#2449#2468#0" expanded="true" />
+                <element signature="e#2641#2661#0" expanded="true" />
+                <element signature="e#2746#2765#0" expanded="true" />
+                <element signature="e#2925#2945#0" expanded="true" />
+                <element signature="e#3120#3139#0" expanded="true" />
+                <element signature="e#3327#3347#0" expanded="true" />
+                <element signature="e#3429#3448#0" expanded="true" />
+                <element signature="e#3633#3653#0" expanded="true" />
+                <element signature="e#3735#3754#0" expanded="true" />
+                <element signature="e#4015#4034#0" expanded="true" />
+                <element signature="e#4241#4261#0" expanded="true" />
+                <element signature="e#4343#4362#0" expanded="true" />
+                <element signature="e#4555#4575#0" expanded="true" />
+                <element signature="e#4657#4676#0" expanded="true" />
+                <element signature="e#4846#4866#0" expanded="true" />
+                <element signature="e#4948#4967#0" expanded="true" />
+                <element signature="e#5140#5160#0" expanded="true" />
+                <element signature="e#5242#5261#0" expanded="true" />
+                <element signature="e#5468#5488#0" expanded="true" />
+                <element signature="e#5570#5589#0" expanded="true" />
+                <element signature="e#5781#5801#0" expanded="true" />
+                <element signature="e#5883#5902#0" expanded="true" />
+                <element signature="e#7237#7256#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/igreja_cadastro/core/templates/index.html">
+      <file leaf-file-name="bootstrap-tab.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/igreja_cadastro/core/static/js/bootstrap-tab.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="19" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="87" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -298,6 +291,32 @@
               <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="igreja" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="igreja" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="igreja_cadastro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -350,6 +369,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/igreja_cadastro/core/static/js" />
       <recent name="$PROJECT_DIR$/igreja_cadastro/core/static/css" />
     </key>
   </component>
@@ -584,13 +604,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="87" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -627,13 +640,6 @@
         <state line="18" column="54" selection-start="473" selection-end="473" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="87" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="36" column="56" selection-start="1151" selection-end="1151" vertical-scroll-proportion="0.0">
@@ -655,20 +661,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/igreja_cadastro/core/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="19" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/igreja_cadastro/core/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="26" selection-start="1255" selection-end="1255" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/igreja_cadastro/core/static/css/bootstrap-responsive.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -683,47 +675,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="87" selection-start="226" selection-end="226" vertical-scroll-proportion="0.12315271">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/igreja_cadastro/core/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="19" selection-start="45" selection-end="45" vertical-scroll-proportion="0.026223777">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/igreja_cadastro/core/static/js/bootstrap-tab.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/igreja_cadastro/core/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="8" selection-start="853" selection-end="853" vertical-scroll-proportion="-12.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/templates/cadastro_fieis/cadastro_form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="28" selection-start="3038" selection-end="3038" vertical-scroll-proportion="0.7604895">
+        <state line="201" column="30" selection-start="6420" selection-end="6420" vertical-scroll-proportion="0.5804196">
           <folding>
-            <element signature="e#107#133#0" expanded="true" />
-            <element signature="e#202#228#0" expanded="true" />
-            <element signature="e#348#367#0" expanded="true" />
-            <element signature="e#498#519#0" expanded="true" />
-            <element signature="e#661#680#0" expanded="true" />
-            <element signature="e#818#838#0" expanded="true" />
-            <element signature="e#1010#1029#0" expanded="true" />
-            <element signature="e#1217#1237#0" expanded="true" />
-            <element signature="e#1319#1338#0" expanded="true" />
-            <element signature="e#1520#1539#0" expanded="true" />
-            <element signature="e#1621#1640#0" expanded="true" />
-            <element signature="e#1903#1922#0" expanded="true" />
-            <element signature="e#2185#2204#0" expanded="true" />
-            <element signature="e#2374#2393#0" expanded="true" />
-            <element signature="e#2475#2494#0" expanded="true" />
-            <element signature="e#2667#2687#0" expanded="true" />
-            <element signature="e#2772#2791#0" expanded="true" />
-            <element signature="e#2951#2971#0" expanded="true" />
-            <element signature="e#3146#3165#0" expanded="true" />
-            <element signature="e#3353#3373#0" expanded="true" />
-            <element signature="e#3455#3474#0" expanded="true" />
-            <element signature="e#3659#3679#0" expanded="true" />
-            <element signature="e#3761#3780#0" expanded="true" />
-            <element signature="e#4041#4060#0" expanded="true" />
-            <element signature="e#4267#4287#0" expanded="true" />
-            <element signature="e#4369#4388#0" expanded="true" />
-            <element signature="e#4581#4601#0" expanded="true" />
-            <element signature="e#4683#4702#0" expanded="true" />
-            <element signature="e#4872#4892#0" expanded="true" />
-            <element signature="e#4974#4993#0" expanded="true" />
-            <element signature="e#5166#5186#0" expanded="true" />
-            <element signature="e#5268#5287#0" expanded="true" />
-            <element signature="e#5494#5514#0" expanded="true" />
-            <element signature="e#5596#5615#0" expanded="true" />
-            <element signature="e#5807#5827#0" expanded="true" />
-            <element signature="e#5909#5928#0" expanded="true" />
-            <element signature="e#6433#6452#0" expanded="true" />
+            <element signature="e#213#239#0" expanded="true" />
+            <element signature="e#322#341#0" expanded="true" />
+            <element signature="e#472#493#0" expanded="true" />
+            <element signature="e#635#654#0" expanded="true" />
+            <element signature="e#792#812#0" expanded="true" />
+            <element signature="e#984#1003#0" expanded="true" />
+            <element signature="e#1191#1211#0" expanded="true" />
+            <element signature="e#1293#1312#0" expanded="true" />
+            <element signature="e#1494#1513#0" expanded="true" />
+            <element signature="e#1595#1614#0" expanded="true" />
+            <element signature="e#1877#1896#0" expanded="true" />
+            <element signature="e#2159#2178#0" expanded="true" />
+            <element signature="e#2348#2367#0" expanded="true" />
+            <element signature="e#2449#2468#0" expanded="true" />
+            <element signature="e#2641#2661#0" expanded="true" />
+            <element signature="e#2746#2765#0" expanded="true" />
+            <element signature="e#2925#2945#0" expanded="true" />
+            <element signature="e#3120#3139#0" expanded="true" />
+            <element signature="e#3327#3347#0" expanded="true" />
+            <element signature="e#3429#3448#0" expanded="true" />
+            <element signature="e#3633#3653#0" expanded="true" />
+            <element signature="e#3735#3754#0" expanded="true" />
+            <element signature="e#4015#4034#0" expanded="true" />
+            <element signature="e#4241#4261#0" expanded="true" />
+            <element signature="e#4343#4362#0" expanded="true" />
+            <element signature="e#4555#4575#0" expanded="true" />
+            <element signature="e#4657#4676#0" expanded="true" />
+            <element signature="e#4846#4866#0" expanded="true" />
+            <element signature="e#4948#4967#0" expanded="true" />
+            <element signature="e#5140#5160#0" expanded="true" />
+            <element signature="e#5242#5261#0" expanded="true" />
+            <element signature="e#5468#5488#0" expanded="true" />
+            <element signature="e#5570#5589#0" expanded="true" />
+            <element signature="e#5781#5801#0" expanded="true" />
+            <element signature="e#5883#5902#0" expanded="true" />
+            <element signature="e#7237#7256#0" expanded="true" />
           </folding>
         </state>
       </provider>

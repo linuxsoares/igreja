@@ -1,13 +1,13 @@
 {% extends 'base.html' %}
 {% block content %}
 
-<form class="form-horizontal well" action="." method="POST" style="text-align: center">
+<form class="form-horizontal well" action="." method="POST" >
     {% csrf_token %}
     {{ form.non_field_errors }}
-    <fieldset style="text-align: center">
+    <fieldset>
 
     <!-- Form Name -->
-    <legend>Cadastro de Fiéis</legend>
+    <legend style="text-align: center">Cadastro de Fiéis</legend>
 
     <!-- Text input-->
     <div class="control-group" style='float: left'>
@@ -195,6 +195,35 @@
       </div>
     </div>
 
+    <br />
+    <br />
+    <br />
+
+    <div class="control-group">
+        <ul class="nav nav-tabs" id="myTab">
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#messages">Messages</a></li>
+            <li><a href="#settings">Settings</a></li>
+        </ul>
+
+        <div class="tab-content">
+            <div class="tab-pane active" id="home">Home</div>
+            <div class="tab-pane" id="profile">Profile</div>
+            <div class="tab-pane" id="messages">Messages</div>
+            <div class="tab-pane" id="settings">Settings</div>
+        </div>
+
+        <script>
+            $('#myTab a').click(function (e) {
+                e.preventDefault();
+                $(this).tab('show');
+            })
+        </script>
+
+    </div>
+
+
     <!-- Button -->
     <div class="control-group" style='float: left'>
       <label class="control-label"></label>
@@ -204,6 +233,7 @@
     </div>
 
     </fieldset>
+
 </form>
 
 
