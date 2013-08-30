@@ -1,56 +1,210 @@
 {% extends 'base.html' %}
 {% block content %}
-<form class="form-horizontal well" action="." method="POST">
+
+<form class="form-horizontal well" action="." method="POST" style="text-align: center">
     {% csrf_token %}
     {{ form.non_field_errors }}
-    <fieldset>
-        <legend>Formulário de Cadastro</legend>
-        <div class="control-group">
-            <label class="control-label" for="{{ form.name.id_for_label }}">{{ form.name.label }}:</label>
-            <div class="controls">
-                {{ form.name }}
-                {{ form.name.errors }}
-            </div>
-        </div>
-        <div class="control-group">
-            <label class="control-label" for="{{ form.sexo.id_for_label }}">{{ form.sexo.label }}:</label>
-            <div class="controls">
-                {{ form.sexo }}
-                {{ form.sexo.errors }}
-            </div>
-        </div>
-        <div class="control-group">
-            <label class="control-label" for="{{ form.endereco.id_for_label }}">{{ form.endereco.label }}:</label>
-            <div class="controls">
-                {{ form.endereco }}
-                {{ form.endereco.errors }}
-            </div>
-        </div>
-        <div class="control-group">
-            <label class="control-label" for="{{ form.numero.id_for_label }}">{{ form.numero.label }}:</label>
-            <div class="controls">
-                {{ form.numero }}
-                {{ form.numero.errors }}
-            </div>
-        </div>
-        <div class="control-group">
-            <label class="control-label" for="{{ form.bairro.id_for_label }}">{{ form.bairro.label }}:</label>
-            <div class="controls">
-                {{ form.bairro }}
-                {{ form.bairro.errors }}
-            </div>
-        </div>
-        <div class="control-group">
-            <label class="control-label" for="{{ form.cidade.id_for_label }}">{{ form.cidade.label }}: </label>
-            <div class="controls">
-                {{ form.cidade }}
-                {{ form.cidade.errors }}
-            </div>
+    <fieldset style="text-align: center">
 
-            <div class="form-actions">
-                <button type="submit" class="btn btn-primary">Enviar</button>
-            </div>
-        </div>
+    <!-- Form Name -->
+    <legend>Cadastro de Fiéis</legend>
+
+    <!-- Text input-->
+    <div class="control-group" style='float: left'>
+      <label class="control-label">Nome</label>
+      <div class="controls">
+        <input id="nome" name="nome" placeholder="" style="width: 700px " class="input-xlarge" required="" type="text">
+
+      </div>
+    </div>
+
+    <br />
+
+    <!-- Select Basic -->
+    <div class="control-group" style='float: left'>
+      <label class="control-label">Sexo</label>
+      <div class="controls">
+        <select id="sexo" name="sexo" class="input-xlarge" style="width: 100px">
+          <option>Masculino</option>
+          <option>Feminino</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Text input-->
+    <div class="control-group" style='float: left'>
+      <label class="control-label">Endereço</label>
+      <div class="controls">
+        <input id="endereco" name="endereco" placeholder="" class="input-xlarge" required="" type="text" style="width: 750px">
+
+      </div>
+    </div>
+
+    <!-- Text input-->
+    <div class="control-group" style='float: left'>
+      <label class="control-label">Numero</label>
+      <div class="controls">
+        <input id="numero" name="numero" placeholder="" class="input-xlarge" required="" type="text" style="width: 50px">
+
+      </div>
+    </div>
+
+    <!-- Text input-->
+    <div class="control-group" style='float: left'>
+      <label class="control-label">Bairro</label>
+      <div class="controls">
+        <input id="bairro" name="bairro" placeholder="" class="input-xlarge" required="" type="text">
+
+      </div>
+    </div>
+
+    <!-- Text input-->
+    <div class="control-group" style='float: left'>
+      <label class="control-label">Cidade</label>
+      <div class="controls">
+        <input id="cidade" name="cidade" placeholder="" class="input-xlarge" required="" type="text">
+
+      </div>
+    </div>
+
+    <!-- Text input-->
+    <div class="control-group" style='float: left'>
+      <label class="control-label">UF</label>
+      <div class="controls">
+        <input id="uf" name="uf" placeholder="" class="input-xlarge" required="" type="text" style="width: 60px">
+
+      </div>
+    </div>
+
+    <!-- Text input-->
+    <div class="control-group" style='float: left'>
+      <label class="control-label">CEP</label>
+      <div class="controls">
+        <input id="cep" name="cep" placeholder="" class="input-xlarge" required="" type="text" style="width: 100px">
+
+      </div>
+    </div>
+
+    <!-- Select Basic -->
+    <div class="control-group" style='float: left'>
+      <label class="control-label">Estado Civil</label>
+      <div class="controls">
+        <select id="estadoCivil" name="estadocivil" class="input-xlarge" style="width: 100px">
+          <option>Masculino</option>
+          <option>Feminino</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Text input-->
+    <div class="control-group" style='float: left'>
+      <label class="control-label">Telefone</label>
+      <div class="controls">
+        <input id="telefone" name="telefone" placeholder="" class="input-xlarge" required="" type="text" style="width: 100px">
+
+      </div>
+    </div>
+
+    <!-- Text input-->
+    <div class="control-group" style='float: left'>
+      <label class="control-label">Celular</label>
+      <div class="controls">
+        <input id="celular" name="celular" placeholder="" class="input-xlarge" required="" type="text" style="width: 100px">
+
+      </div>
+    </div>
+
+    <!-- Text input-->
+    <div class="control-group" style='float: left'>
+      <label class="control-label">E-mail</label>
+      <div class="controls">
+        <input id="email" name="email" placeholder="" class="input-xlarge" required="" type="text">
+
+      </div>
+    </div>
+
+    <!-- Text input-->
+    <div class="control-group" style='float: left'>
+      <label class="control-label">Data Nascimento</label>
+      <div class="controls">
+        <input id="dataNascimento" name="dataNascimento" placeholder="" class="input-xlarge" required="" type="text" style="width: 100px">
+
+      </div>
+    </div>
+
+    <!-- Text input-->
+    <div class="control-group" style='float: left'>
+      <label class="control-label">Natural De?</label>
+      <div class="controls">
+        <input id="naturalDe" name="naturalDe" placeholder="" class="input-xlarge" required="" type="text" style="width: 100px">
+
+      </div>
+    </div>
+
+    <!-- Text input-->
+    <div class="control-group" style='float: left'>
+      <label class="control-label">RG</label>
+      <div class="controls">
+        <input id="rg" name="rg" placeholder="" class="input-xlarge" required="" type="text" style="width: 100px">
+
+      </div>
+    </div>
+
+    <!-- Text input-->
+    <div class="control-group" style='float: left'>
+      <label class="control-label">CPF</label>
+      <div class="controls">
+        <input id="cpf" name="cpf" placeholder="" class="input-xlarge" required="" type="text" style="width: 100px">
+
+      </div>
+    </div>
+
+    <!-- Text input-->
+    <div class="control-group" style='float: left'>
+      <label class="control-label">Titulo de Eleitor</label>
+      <div class="controls">
+        <input id="tituloEleitor" name="tituloEleitor" placeholder="" class="input-xlarge" required="" type="text" style="width: 100px">
+
+      </div>
+    </div>
+
+    <!-- Text input-->
+    <div class="control-group" style='float: left'>
+      <label class="control-label">Data Casamento</label>
+      <div class="controls">
+        <input id="dataCasamento" name="dataCasamento" placeholder="" class="input-xlarge" type="text" style="width: 100px">
+
+      </div>
+    </div>
+
+    <!-- Text input-->
+    <div class="control-group" style='float: left'>
+      <label class="control-label">Conjuge</label>
+      <div class="controls">
+        <input id="conjuge" name="conjuge" placeholder="" class="input-xlarge" type="text">
+
+      </div>
+    </div>
+
+    <!-- Text input-->
+    <div class="control-group" >
+      <label class="control-label">É Crente?</label>
+      <div class="controls">
+        <input id="crente" name="crente" placeholder="" class="input-xlarge" type="text">
+
+      </div>
+    </div>
+
+    <!-- Button -->
+    <div class="control-group" style='float: left'>
+      <label class="control-label"></label>
+      <div class="controls">
+        <button id="singlebutton" name="singlebutton" class="btn btn-primary">Cadastrar</button>
+      </div>
+    </div>
+
     </fieldset>
 </form>
+
+
 {% endblock content %}
