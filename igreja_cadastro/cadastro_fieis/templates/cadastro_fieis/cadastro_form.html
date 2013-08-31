@@ -236,7 +236,12 @@
     <div class="control-group" style='float: left'>
       <label class="control-label">Data Casamento</label>
       <div class="controls">
-        <input id="dataCasamento" name="dataCasamento" placeholder="" class="input-xlarge" type="text" style="width: 100px">
+        {% if form.dataCasamento.value %}
+          <input id="dataCasamento" name="dataCasamento" placeholder="" class="input-xlarge" type="text" style="width: 100px" value={{ form.dataCasamento.value }}>
+        {% else %}
+          <input id="dataCasamento" name="dataCasamento" placeholder="" class="input-xlarge" type="text" style="width: 100px">
+        {% endif %}
+        {{ form.dataCasamento.errors }}
 
       </div>
     </div>
@@ -245,7 +250,12 @@
     <div class="control-group" >
       <label class="control-label">Conjuge</label>
       <div class="controls">
-        <input id="conjuge" name="conjuge" placeholder="" class="input-xlarge" type="text" style="width: 200px">
+        {% if form.conjuge.value %}
+          <input id="conjuge" name="conjuge" placeholder="" class="input-xlarge" type="text" style="width: 200px" value={{ form.conjuge.value }}>
+        {% else %}
+          <input id="conjuge" name="conjuge" placeholder="" class="input-xlarge" type="text" style="width: 200px">
+        {% endif %}
+        {{ form.conjuge.errors }}
 
       </div>
     </div>
@@ -254,7 +264,12 @@
     <div class="control-group" >
       <label class="control-label">É Crente?</label>
       <div class="controls">
-        <input id="crente" name="crente" placeholder="" class="input-xlarge" type="text" style="width: 200px">
+        {% if form.crente.value %}
+          <input id="crente" name="crente" placeholder="" class="input-xlarge" type="text" style="width: 200px" value={{ form.crente.value }}>
+        {% else %}
+          <input id="crente" name="crente" placeholder="" class="input-xlarge" type="text" style="width: 200px">
+        {% endif %}
+        {{ form.crente.errors }}
 
       </div>
     </div>
@@ -277,7 +292,12 @@
                     <div class="control-group" style='float: left'>
                       <label class="control-label">Data Conversão</label>
                       <div class="controls">
-                        <input id="dataConversaoDE" name="dataConversaoDE" placeholder="" class="input-xlarge" type="text">
+                        {% if form.dataConversaoDE.value %}
+                          <input id="dataConversaoDE" name="dataConversaoDE" placeholder="" class="input-xlarge" type="text" value={{ form.dataConversaoDE.value }}>
+                        {% else %}
+                          <input id="dataConversaoDE" name="dataConversaoDE" placeholder="" class="input-xlarge" type="text">
+                        {% endif %}
+                        {{ form.dataConversaoDE.errors }}
 
                       </div>
                     </div>
@@ -286,7 +306,12 @@
                     <div class="control-group">
                       <label class="control-label">Igreja</label>
                       <div class="controls">
-                        <input id="igrejaDE" name="igrejaDE" placeholder="" class="input-xlarge" type="text">
+                        {% if form.igrejaDE.value %}
+                          <input id="igrejaDE" name="igrejaDE" placeholder="" class="input-xlarge" type="text" value={{ form.igrejaDE.value }}>
+                        {% else %}
+                          <input id="igrejaDE" name="igrejaDE" placeholder="" class="input-xlarge" type="text">
+                        {% endif %}
+                        {{ form.igrejaDE.errors }}
 
                       </div>
                     </div>
@@ -295,7 +320,12 @@
                     <div class="control-group" style='float: left'>
                       <label class="control-label">Org a que Pertence</label>
                       <div class="controls">
-                        <input id="orgpertenceDE" name="orgpertenceDE" placeholder="" class="input-xlarge" type="text">
+                        {% if form.orgpertenceDE.value %}
+                          <input id="orgpertenceDE" name="orgpertenceDE" placeholder="" class="input-xlarge" type="text" value={{ form.orgpertenceDE.value }}>
+                        {% else %}
+                          <input id="orgpertenceDE" name="orgpertenceDE" placeholder="" class="input-xlarge" type="text">
+                        {% endif %}
+                        {{ form.orgpertenceDE.errors }}
 
                       </div>
                     </div>
@@ -304,7 +334,12 @@
                     <div class="control-group">
                       <label class="control-label">Congregação</label>
                       <div class="controls">
-                        <input id="congregacaoDE" name="congregacaoDE" placeholder="" class="input-xlarge" type="text">
+                        {% if form.congregacaoDE.value %}
+                          <input id="congregacaoDE" name="congregacaoDE" placeholder="" class="input-xlarge" type="text" value={{ form.congregacaoDE.value }}>
+                        {% else %}
+                          <input id="congregacaoDE" name="congregacaoDE" placeholder="" class="input-xlarge" type="text">
+                        {% endif %}
+                        {{ form.congregacaoDE.errors }}
 
                       </div>
                     </div>
@@ -313,7 +348,12 @@
                     <div class="control-group" style='float: left'>
                       <label class="control-label">Data de Batismo</label>
                       <div class="controls">
-                        <input id="dataBatismoDE" name="dataBatismoDE" placeholder="" class="input-xlarge" type="text">
+                        {% if form.dataBatismoDE.value %}
+                          <input id="dataBatismoDE" name="dataBatismoDE" placeholder="" class="input-xlarge" type="text" value={{ form.dataBatismoDE.value }}>
+                        {% else %}
+                          <input id="dataBatismoDE" name="dataBatismoDE" placeholder="" class="input-xlarge" type="text">
+                        {% endif %}
+                        {{ form.dataBatismoDE.errors }}
 
                       </div>
                     </div>
@@ -322,7 +362,12 @@
                     <div class="control-group">
                       <label class="control-label">Igreja</label>
                       <div class="controls">
-                        <input id="igrejaDBatismoDE" name="igrejaDBatismoDE" placeholder="" class="input-xlarge" type="text">
+                        {% if form.igrejaDBatismoDE.value %}
+                          <input id="igrejaDBatismoDE" name="igrejaDBatismoDE" placeholder="" class="input-xlarge" type="text" value={{ form.igrejaDBatismoDE.value }}>
+                        {% else %}
+                          <input id="igrejaDBatismoDE" name="igrejaDBatismoDE" placeholder="" class="input-xlarge" type="text">
+                        {% endif %}
+                        {{ form.igrejaDBatismoDE.errors }}
 
                       </div>
                     </div>
@@ -331,7 +376,12 @@
                     <div class="control-group" style='float: left'>
                       <label class="control-label">Classe da EBD</label>
                       <div class="controls">
-                        <input id="classeEBDDE" name="classeEBDDE" placeholder="" class="input-xlarge" type="text">
+                        {% if form.classeEBDDE.value %}
+                          <input id="classeEBDDE" name="classeEBDDE" placeholder="" class="input-xlarge" type="text" value={{ form.classeEBDDE.value }}>
+                        {% else %}
+                          <input id="classeEBDDE" name="classeEBDDE" placeholder="" class="input-xlarge" type="text">
+                        {% endif %}
+                        {{ form.classeEBDDE.errors }}
 
                       </div>
                     </div>
@@ -340,7 +390,12 @@
                     <div class="control-group">
                       <label class="control-label">Cargos/Funções</label>
                       <div class="controls">
-                        <input id="cargosefuncoesDE" name="cargosefuncoesDE" placeholder="" class="input-xlarge" type="text">
+                        {% if form.cargosefuncoesDE.value %}
+                          <input id="cargosefuncoesDE" name="cargosefuncoesDE" placeholder="" class="input-xlarge" type="text" value={{ form.cargosefuncoesDE.value }}>
+                        {% else %}
+                          <input id="cargosefuncoesDE" name="cargosefuncoesDE" placeholder="" class="input-xlarge" type="text">
+                        {% endif %}
+                        {{ form.cargosefuncoesDE.errors }}
 
                       </div>
                     </div>
@@ -349,7 +404,12 @@
                     <div class="control-group" style='float: left'>
                       <label class="control-label">Recebido com carta? Data:</label>
                       <div class="controls">
-                        <input id="recebidoCartaDataDE" name="recebidoCartaDataDE" placeholder="" class="input-xlarge" type="text">
+                        {% if form.recebidoCartaDataDE.value %}
+                          <input id="recebidoCartaDataDE" name="recebidoCartaDataDE" placeholder="" class="input-xlarge" type="text" value={{ form.recebidoCartaDataDE.value }}>
+                        {% else %}
+                          <input id="recebidoCartaDataDE" name="recebidoCartaDataDE" placeholder="" class="input-xlarge" type="text">
+                        {% endif %}
+                        {{ form.recebidoCartaDataDE.errors }}
 
                       </div>
                     </div>
@@ -358,7 +418,12 @@
                     <div class="control-group">
                       <label class="control-label">Igreja de Origem</label>
                       <div class="controls">
-                        <input id="igrejaOrigemDE" name="igrejaOrigemDE" placeholder="" class="input-xlarge" type="text">
+                        {% if form.igrejaOrigemDE.value %}
+                          <input id="igrejaOrigemDE" name="igrejaOrigemDE" placeholder="" class="input-xlarge" type="text" value={{ form.igrejaOrigemDE.value }}>
+                        {% else %}
+                          <input id="igrejaOrigemDE" name="igrejaOrigemDE" placeholder="" class="input-xlarge" type="text">
+                        {% endif %}
+                        {{ form.igrejaOrigemDE.errors }}
 
                       </div>
                     </div>
@@ -367,7 +432,12 @@
                     <div class="control-group" style='float: left'>
                       <label class="control-label">Data de Saida:</label>
                       <div class="controls">
-                        <input id="dataSaida" name="dataSaida" placeholder="" class="input-xlarge" type="text">
+                        {% if form.dataSaida.value %}
+                          <input id="dataSaida" name="dataSaida" placeholder="" class="input-xlarge" type="text" value={{ form.dataSaida.value }}>
+                        {% else %}
+                          <input id="dataSaida" name="dataSaida" placeholder="" class="input-xlarge" type="text">
+                        {% endif %}
+                        {{ form.dataSaida.errors }}
 
                       </div>
                     </div>
@@ -388,7 +458,12 @@
                 <div class="control-group">
                   <label class="control-label">Nome do Pai</label>
                   <div class="controls">
-                    <input id="pai" name="pai" placeholder="" class="input-xlarge" type="text" style="width: 800px">
+                    {% if form.nomePai.value %}
+                      <input id="nomePai" name="nomePai" placeholder="" class="input-xlarge" type="text" style="width: 800px" value={{ form.nomePai.value }}>
+                    {% else %}
+                      <input id="nomePai" name="nomePai" placeholder="" class="input-xlarge" type="text" style="width: 800px">
+                    {% endif %}
+                    {{ form.nomePai.errors }}
 
                   </div>
                 </div>
@@ -397,7 +472,12 @@
                 <div class="control-group">
                   <label class="control-label">Nome da Mãe</label>
                   <div class="controls">
-                    <input id="nomeMae" name="nomeMae" placeholder="" class="input-xlarge" required="" type="text" style="width: 800px">
+                    {% if form.nomeMae.value %}
+                      <input id="nomeMae" name="nomeMae" placeholder="" class="input-xlarge" type="text" style="width: 800px" value={{ form.nomeMae.value }}>
+                    {% else %}
+                      <input id="nomeMae" name="nomeMae" placeholder="" class="input-xlarge" type="text" style="width: 800px">
+                    {% endif %}
+                    {{ form.nomeMae.errors }}
 
                   </div>
                 </div>
@@ -407,7 +487,12 @@
                     <div class="control-group" style='float: left'>
                       <label class="control-label">Área</label>
                       <div class="controls">
-                        <input id="area1PTS" name="area1PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px">
+                        {% if form.area1PTS.value %}
+                          <input id="area1PTS" name="area1PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px" value={{ form.area1PTS.value }}>
+                        {% else %}
+                          <input id="area1PTS" name="area1PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px">
+                        {% endif %}
+                        {{ form.area1PTS.errors }}
 
                       </div>
                     </div>
@@ -416,7 +501,12 @@
                     <div class="control-group">
                       <label class="control-label">Função</label>
                       <div class="controls">
-                        <input id="funcao1PTS" name="funcao1PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px">
+                        {% if form.funcao1PTS.value %}
+                          <input id="funcao1PTS" name="funcao1PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px" value={{ form.funcao1PTS.value }}>
+                        {% else %}
+                          <input id="funcao1PTS" name="funcao1PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px">
+                        {% endif %}
+                        {{ form.funcao1PTS.errors }}
 
                       </div>
                     </div>
@@ -425,7 +515,12 @@
                     <div class="control-group" style='float: left'>
                       <label class="control-label">Área</label>
                       <div class="controls">
-                        <input id="area2PTS" name="area2PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px">
+                        {% if form.area2PTS.value %}
+                          <input id="area2PTS" name="area2PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px" value={{ form.area2PTS.value }}>
+                        {% else %}
+                          <input id="area2PTS" name="area2PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px">
+                        {% endif %}
+                        {{ form.area2PTS.errors }}
 
                       </div>
                     </div>
@@ -434,7 +529,12 @@
                     <div class="control-group">
                       <label class="control-label">Função</label>
                       <div class="controls">
-                        <input id="funcao2PTS" name="funcao2PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px">
+                        {% if form.funcao2PTS.value %}
+                          <input id="funcao2PTS" name="funcao2PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px" value={{ form.funcao2PTS.value }}>
+                        {% else %}
+                          <input id="funcao2PTS" name="funcao2PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px">
+                        {% endif %}
+                        {{ form.funcao2PTS.errors }}
 
                       </div>
                     </div>
@@ -443,7 +543,12 @@
                     <div class="control-group" style='float: left'>
                       <label class="control-label">Área</label>
                       <div class="controls">
-                        <input id="area3PTS" name="area3PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px">
+                        {% if form.area3PTS.value %}
+                          <input id="area3PTS" name="area3PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px" value={{ form.area3PTS.value }}>
+                        {% else %}
+                          <input id="area3PTS" name="area3PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px">
+                        {% endif %}
+                        {{ form.area3PTS.errors }}
 
                       </div>
                     </div>
@@ -452,7 +557,12 @@
                     <div class="control-group">
                       <label class="control-label">Função</label>
                       <div class="controls">
-                        <input id="funcao3PTS" name="funcao3PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px">
+                        {% if form.funcao3PTS.value %}
+                          <input id="funcao3PTS" name="funcao3PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px" value={{ form.funcao3PTS.value }}>
+                        {% else %}
+                          <input id="funcao3PTS" name="funcao3PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px">
+                        {% endif %}
+                        {{ form.funcao3PTS.errors }}
 
                       </div>
                     </div>
@@ -461,7 +571,12 @@
                     <div class="control-group" style='float: left'>
                       <label class="control-label">Área</label>
                       <div class="controls">
-                        <input id="area4PTS" name="area4PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px">
+                        {% if form.area4PTS.value %}
+                          <input id="area4PTS" name="area4PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px" value={{ form.area4PTS.value }}>
+                        {% else %}
+                          <input id="area4PTS" name="area4PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px">
+                        {% endif %}
+                        {{ form.area4PTS.errors }}
 
                       </div>
                     </div>
@@ -470,7 +585,12 @@
                     <div class="control-group">
                       <label class="control-label">Função</label>
                       <div class="controls">
-                        <input id="funcao4PTS" name="funcao4PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px">
+                        {% if form.funcao4PTS.value %}
+                          <input id="funcao4PTS" name="funcao4PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px" value={{ form.funcao4PTS.value }}>
+                        {% else %}
+                          <input id="funcao4PTS" name="funcao4PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px">
+                        {% endif %}
+                        {{ form.funcao4PTS.errors }}
 
                       </div>
                     </div>
@@ -486,14 +606,9 @@
 
     </div>
 
-
     <!-- Button -->
-    <div class="control-group" style='float: left'>
-      <label class="control-label"></label>
-      <div class="controls">
-        <button id="singlebutton" name="singlebutton" class="btn btn-primary">Cadastrar</button>
-      </div>
-    </div>
+    <input type="submit" value="Cadastrar" class="btn btn-primary">
+    <a href="/" class="btn">Cancelar</a>
 
     </fieldset>
 

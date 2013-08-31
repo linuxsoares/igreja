@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c31abcc-4196-4dea-b8c2-ccacc02126f0" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/igreja_cadastro/core/templates/base.html" afterPath="$PROJECT_DIR$/igreja_cadastro/core/templates/base.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/templates/cadastro_fieis/cadastro_form.html" afterPath="$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/templates/cadastro_fieis/cadastro_form.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/forms.py" afterPath="$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/forms.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/models.py" afterPath="$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/igreja_cadastro/settings.py" afterPath="$PROJECT_DIR$/igreja_cadastro/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/igreja_cadastro/urls.py" afterPath="$PROJECT_DIR$/igreja_cadastro/urls.py" />
     </list>
     <ignored path="igreja.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -16,9 +19,11 @@
     <file path="/bootstrap-sticky-footer.css" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1377373801639" ignored="false" />
     <file path="/Dummy.txt" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1377965124574" ignored="false" />
     <file path="/tests.py" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1377579921023" ignored="false" />
-    <file path="/cadastro_form.html" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1377974845923" ignored="false" />
-    <file path="/forms.py" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1377973956916" ignored="false" />
-    <file path="/base.html" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1377842725901" ignored="false" />
+    <file path="/cadastro_form.html" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1377983658732" ignored="false" />
+    <file path="/forms.py" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1377982573554" ignored="false" />
+    <file path="/base.html" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1377983215722" ignored="false" />
+    <file path="/models.py" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1377982864865" ignored="false" />
+    <file path="/admin.py" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1377983368534" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,19 +43,79 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="forms.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/forms.py">
+      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/igreja_cadastro/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="62" selection-start="1133" selection-end="1133" vertical-scroll-proportion="0.0">
+            <state line="115" column="0" selection-start="4118" selection-end="4118" vertical-scroll-proportion="-0.73657715">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cadastro_form.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/igreja_cadastro/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="0" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/igreja_cadastro/core/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="19" selection-start="45" selection-end="45" vertical-scroll-proportion="-0.625">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/igreja_cadastro/core/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="43" column="31" selection-start="1446" selection-end="1446" vertical-scroll-proportion="-18.125">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="33" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#17#49#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forms.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="28" selection-start="846" selection-end="846" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#17#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="16" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#17#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cadastro_form.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/templates/cadastro_fieis/cadastro_form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="125" selection-start="2730" selection-end="2730" vertical-scroll-proportion="0.12605043">
+            <state line="607" column="0" selection-start="27657" selection-end="27657" vertical-scroll-proportion="-379.375">
               <folding>
                 <element signature="e#213#239#0" expanded="true" />
                 <element signature="e#322#341#0" expanded="true" />
@@ -100,30 +165,42 @@
                 <element signature="e#8984#9004#0" expanded="true" />
                 <element signature="e#9179#9199#0" expanded="true" />
                 <element signature="e#9341#9360#0" expanded="true" />
-                <element signature="e#9552#9572#0" expanded="true" />
-                <element signature="e#9827#9847#0" expanded="true" />
-                <element signature="e#10102#10122#0" expanded="true" />
-                <element signature="e#10727#10746#0" expanded="true" />
-                <element signature="e#11501#11520#0" expanded="true" />
-                <element signature="e#12290#12309#0" expanded="true" />
-                <element signature="e#13077#13096#0" expanded="true" />
-                <element signature="e#13866#13885#0" expanded="true" />
-                <element signature="e#14681#14700#0" expanded="true" />
-                <element signature="e#15720#15740#0" expanded="true" />
-                <element signature="e#16094#16114#0" expanded="true" />
-                <element signature="e#16315#16334#0" expanded="true" />
-                <element signature="e#16554#16574#0" expanded="true" />
-                <element signature="e#16945#16965#0" expanded="true" />
-                <element signature="e#17111#17130#0" expanded="true" />
-                <element signature="e#17350#17370#0" expanded="true" />
-                <element signature="e#17741#17761#0" expanded="true" />
-                <element signature="e#17907#17926#0" expanded="true" />
-                <element signature="e#18146#18166#0" expanded="true" />
-                <element signature="e#18537#18557#0" expanded="true" />
-                <element signature="e#18703#18722#0" expanded="true" />
-                <element signature="e#18942#18962#0" expanded="true" />
-                <element signature="e#19333#19353#0" expanded="true" />
-                <element signature="e#19682#19701#0" expanded="true" />
+                <element signature="e#9596#9616#0" expanded="true" />
+                <element signature="e#9779#9799#0" expanded="true" />
+                <element signature="e#10152#10172#0" expanded="true" />
+                <element signature="e#10317#10337#0" expanded="true" />
+                <element signature="e#10683#10703#0" expanded="true" />
+                <element signature="e#10845#10865#0" expanded="true" />
+                <element signature="e#11523#11542#0" expanded="true" />
+                <element signature="e#12974#12993#0" expanded="true" />
+                <element signature="e#14455#14474#0" expanded="true" />
+                <element signature="e#15949#15968#0" expanded="true" />
+                <element signature="e#17435#17454#0" expanded="true" />
+                <element signature="e#18977#18996#0" expanded="true" />
+                <element signature="e#20400#20420#0" expanded="true" />
+                <element signature="e#20589#20609#0" expanded="true" />
+                <element signature="e#21079#21099#0" expanded="true" />
+                <element signature="e#21268#21288#0" expanded="true" />
+                <element signature="e#21567#21586#0" expanded="true" />
+                <element signature="e#21861#21881#0" expanded="true" />
+                <element signature="e#22061#22081#0" expanded="true" />
+                <element signature="e#22596#22616#0" expanded="true" />
+                <element signature="e#22802#22822#0" expanded="true" />
+                <element signature="e#23057#23076#0" expanded="true" />
+                <element signature="e#23351#23371#0" expanded="true" />
+                <element signature="e#23551#23571#0" expanded="true" />
+                <element signature="e#24086#24106#0" expanded="true" />
+                <element signature="e#24292#24312#0" expanded="true" />
+                <element signature="e#24547#24566#0" expanded="true" />
+                <element signature="e#24841#24861#0" expanded="true" />
+                <element signature="e#25041#25061#0" expanded="true" />
+                <element signature="e#25576#25596#0" expanded="true" />
+                <element signature="e#25782#25802#0" expanded="true" />
+                <element signature="e#26037#26056#0" expanded="true" />
+                <element signature="e#26331#26351#0" expanded="true" />
+                <element signature="e#26531#26551#0" expanded="true" />
+                <element signature="e#27066#27086#0" expanded="true" />
+                <element signature="e#27272#27292#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -147,20 +224,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/igreja_cadastro/core/static/css/style.css" />
         <option value="$PROJECT_DIR$/igreja_cadastro/core/views.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/igreja_cadastro/core/static/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/igreja_cadastro/core/static/css/css" />
         <option value="$PROJECT_DIR$/igreja_cadastro/core/static/css/bootstrap-sticky-footer.css" />
         <option value="$PROJECT_DIR$/igreja_cadastro/core/tests.py" />
-        <option value="$PROJECT_DIR$/igreja_cadastro/settings.py" />
-        <option value="$PROJECT_DIR$/igreja_cadastro/urls.py" />
         <option value="$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/views.py" />
         <option value="$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/tests.py" />
         <option value="$PROJECT_DIR$/igreja_cadastro/core/templates/index.html" />
-        <option value="$PROJECT_DIR$/igreja_cadastro/core/templates/base.html" />
         <option value="$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/forms.py" />
+        <option value="$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/models.py" />
+        <option value="$PROJECT_DIR$/igreja_cadastro/settings.py" />
+        <option value="$PROJECT_DIR$/igreja_cadastro/core/templates/base.html" />
+        <option value="$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/admin.py" />
+        <option value="$PROJECT_DIR$/igreja_cadastro/urls.py" />
         <option value="$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/templates/cadastro_fieis/cadastro_form.html" />
       </list>
     </option>
@@ -283,63 +361,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="igreja" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="igreja" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="igreja_cadastro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="igreja" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="igreja" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="igreja_cadastro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="cadastro_fieis" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -391,6 +413,23 @@
       <option name="CUSTOM_SETTINGS" value="false" />
       <option name="USE_OPTIONS" value="false" />
       <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="igreja" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -527,7 +566,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2617886" sideWeight="0.67021275" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2617886" sideWeight="0.67021275" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -603,16 +642,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/igreja_cadastro/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/igreja_cadastro/core/static/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="0" selection-start="279" selection-end="279" vertical-scroll-proportion="0.37931034">
@@ -623,13 +652,6 @@
     <entry file="file://$PROJECT_DIR$/igreja_cadastro/core/static/css/bootstrap-sticky-footer.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="22" selection-start="485" selection-end="485" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/igreja_cadastro/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="90" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -660,23 +682,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/igreja_cadastro/core/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="19" selection-start="45" selection-end="45" vertical-scroll-proportion="0.026223777">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/igreja_cadastro/core/static/js/bootstrap-tab.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/igreja_cadastro/core/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="8" selection-start="853" selection-end="853" vertical-scroll-proportion="0.024671054">
           <folding />
         </state>
       </provider>
@@ -688,23 +696,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/igreja_cadastro/settings.py">
+    <entry file="file://$PROJECT_DIR$/igreja_cadastro/core/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="139" column="37" selection-start="4955" selection-end="4955" vertical-scroll-proportion="0.023734177">
+        <state line="1" column="19" selection-start="45" selection-end="45" vertical-scroll-proportion="-0.625">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/igreja_cadastro/core/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="31" selection-start="1446" selection-end="1446" vertical-scroll-proportion="-18.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/igreja_cadastro/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="33" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#17#49#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="62" selection-start="1133" selection-end="1133" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="25" column="28" selection-start="846" selection-end="846" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#17#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="16" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#17#45#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/templates/cadastro_fieis/cadastro_form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="125" selection-start="2730" selection-end="2730" vertical-scroll-proportion="0.12605043">
+        <state line="607" column="0" selection-start="27657" selection-end="27657" vertical-scroll-proportion="-379.375">
           <folding>
             <element signature="e#213#239#0" expanded="true" />
             <element signature="e#322#341#0" expanded="true" />
@@ -754,31 +796,50 @@
             <element signature="e#8984#9004#0" expanded="true" />
             <element signature="e#9179#9199#0" expanded="true" />
             <element signature="e#9341#9360#0" expanded="true" />
-            <element signature="e#9552#9572#0" expanded="true" />
-            <element signature="e#9827#9847#0" expanded="true" />
-            <element signature="e#10102#10122#0" expanded="true" />
-            <element signature="e#10727#10746#0" expanded="true" />
-            <element signature="e#11501#11520#0" expanded="true" />
-            <element signature="e#12290#12309#0" expanded="true" />
-            <element signature="e#13077#13096#0" expanded="true" />
-            <element signature="e#13866#13885#0" expanded="true" />
-            <element signature="e#14681#14700#0" expanded="true" />
-            <element signature="e#15720#15740#0" expanded="true" />
-            <element signature="e#16094#16114#0" expanded="true" />
-            <element signature="e#16315#16334#0" expanded="true" />
-            <element signature="e#16554#16574#0" expanded="true" />
-            <element signature="e#16945#16965#0" expanded="true" />
-            <element signature="e#17111#17130#0" expanded="true" />
-            <element signature="e#17350#17370#0" expanded="true" />
-            <element signature="e#17741#17761#0" expanded="true" />
-            <element signature="e#17907#17926#0" expanded="true" />
-            <element signature="e#18146#18166#0" expanded="true" />
-            <element signature="e#18537#18557#0" expanded="true" />
-            <element signature="e#18703#18722#0" expanded="true" />
-            <element signature="e#18942#18962#0" expanded="true" />
-            <element signature="e#19333#19353#0" expanded="true" />
-            <element signature="e#19682#19701#0" expanded="true" />
+            <element signature="e#9596#9616#0" expanded="true" />
+            <element signature="e#9779#9799#0" expanded="true" />
+            <element signature="e#10152#10172#0" expanded="true" />
+            <element signature="e#10317#10337#0" expanded="true" />
+            <element signature="e#10683#10703#0" expanded="true" />
+            <element signature="e#10845#10865#0" expanded="true" />
+            <element signature="e#11523#11542#0" expanded="true" />
+            <element signature="e#12974#12993#0" expanded="true" />
+            <element signature="e#14455#14474#0" expanded="true" />
+            <element signature="e#15949#15968#0" expanded="true" />
+            <element signature="e#17435#17454#0" expanded="true" />
+            <element signature="e#18977#18996#0" expanded="true" />
+            <element signature="e#20400#20420#0" expanded="true" />
+            <element signature="e#20589#20609#0" expanded="true" />
+            <element signature="e#21079#21099#0" expanded="true" />
+            <element signature="e#21268#21288#0" expanded="true" />
+            <element signature="e#21567#21586#0" expanded="true" />
+            <element signature="e#21861#21881#0" expanded="true" />
+            <element signature="e#22061#22081#0" expanded="true" />
+            <element signature="e#22596#22616#0" expanded="true" />
+            <element signature="e#22802#22822#0" expanded="true" />
+            <element signature="e#23057#23076#0" expanded="true" />
+            <element signature="e#23351#23371#0" expanded="true" />
+            <element signature="e#23551#23571#0" expanded="true" />
+            <element signature="e#24086#24106#0" expanded="true" />
+            <element signature="e#24292#24312#0" expanded="true" />
+            <element signature="e#24547#24566#0" expanded="true" />
+            <element signature="e#24841#24861#0" expanded="true" />
+            <element signature="e#25041#25061#0" expanded="true" />
+            <element signature="e#25576#25596#0" expanded="true" />
+            <element signature="e#25782#25802#0" expanded="true" />
+            <element signature="e#26037#26056#0" expanded="true" />
+            <element signature="e#26331#26351#0" expanded="true" />
+            <element signature="e#26531#26551#0" expanded="true" />
+            <element signature="e#27066#27086#0" expanded="true" />
+            <element signature="e#27272#27292#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/igreja_cadastro/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="115" column="0" selection-start="4118" selection-end="4118" vertical-scroll-proportion="-0.73657715">
+          <folding />
         </state>
       </provider>
     </entry>
