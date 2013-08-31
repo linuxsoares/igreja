@@ -14,9 +14,9 @@
       <label class="control-label">Nome</label>
       <div class="controls">
             {% if form.nome.value %}
-                <input id="nome" type="text" class="input-xlarge" name="nome" required="" maxlength="100" style="width: 600px" value={{ form.nome.value }} />
+                <input id="id_nome" type="text" class="input-xlarge" name="nome" required="" maxlength="100" style="width: 600px" value={{ form.nome.value }} />
             {% else %}
-                <input id="nome" type="text" class="input-xlarge" name="nome" required="" maxlength="100" style="width: 600px"/>
+                <input id="id_nome" type="text" class="input-xlarge" name="nome" required="" maxlength="100" style="width: 600px"/>
             {% endif %}
             {{ form.nome.errors }}
       </div>
@@ -38,9 +38,9 @@
       <label class="control-label">Endereço</label>
       <div class="controls">
         {% if form.endereco.value %}
-            <input id="endereco" name="endereco" placeholder="" class="input-xlarge" required="" type="text" style="width: 780px" value={{ form.endereco }}>
+            <input id="id_endereco" name="endereco" placeholder="" class="input-xlarge" required="" type="text" style="width: 780px" value={{ form.endereco }}>
         {% else %}
-            <input id="endereco" name="endereco" placeholder="" class="input-xlarge" required="" type="text" style="width: 780px">
+            <input id="id_endereco" name="endereco" placeholder="" class="input-xlarge" required="" type="text" style="width: 780px">
         {% endif %}
         {{ form.endereco.errors }}
       </div>
@@ -51,9 +51,9 @@
       <label class="control-label">Numero</label>
       <div class="controls">
         {% if form.numero.value %}
-          <input id="numero" name="numero" placeholder="" class="input-xlarge" required="" type="text" style="width: 50px" value={{ form.numero }}>
+          <input id="id_numero" name="numero" placeholder="" class="input-xlarge" required="" type="text" style="width: 50px" value={{ form.numero }}>
         {% else %}
-          <input id="numero" name="numero" placeholder="" class="input-xlarge" required="" type="text" style="width: 50px">
+          <input id="id_numero" name="numero" placeholder="" class="input-xlarge" required="" type="text" style="width: 50px">
         {% endif %}
         {{ form.numero.errors }}
       </div>
@@ -64,9 +64,9 @@
       <label class="control-label">Bairro</label>
       <div class="controls">
           {% if form.bairro.value %}
-            <input id="bairro" name="bairro" placeholder="" class="input-xlarge" required="" type="text" style="width: 200px" value={{ form.bairro }}>
+            <input id="id_bairro" name="bairro" placeholder="" class="input-xlarge" required="" type="text" style="width: 200px" value={{ form.bairro }}>
           {% else %}
-            <input id="bairro" name="bairro" placeholder="" class="input-xlarge" required="" type="text" style="width: 200px" >
+            <input id="id_bairro" name="bairro" placeholder="" class="input-xlarge" required="" type="text" style="width: 200px" >
           {% endif %}
           {{ form.bairro.errors }}
       </div>
@@ -77,9 +77,9 @@
       <label class="control-label">Cidade</label>
       <div class="controls">
         {% if form.cidade.value %}
-          <input id="cidade" name="cidade" placeholder="" class="input-xlarge" required="" type="text" style="width: 200px" value={{ form.cidade }}>
+          <input id="id_cidade" name="cidade" placeholder="" class="input-xlarge" required="" type="text" style="width: 200px" value={{ form.cidade }}>
         {% else %}
-          <input id="cidade" name="cidade" placeholder="" class="input-xlarge" required="" type="text" style="width: 200px">
+          <input id="id_cidade" name="cidade" placeholder="" class="input-xlarge" required="" type="text" style="width: 200px">
         {% endif %}
 
       </div>
@@ -90,9 +90,9 @@
       <label class="control-label">UF</label>
       <div class="controls">
         {% if form.uf.value %}
-          <input id="uf" name="uf" placeholder="" class="input-xlarge" required="" type="text" style="width: 60px" value={{ form.uf.value }}>
+          <input id="id_uf" name="uf" placeholder="" class="input-xlarge" required="" type="text" style="width: 60px" value={{ form.uf.value }}>
         {% else %}
-          <input id="uf" name="uf" placeholder="" class="input-xlarge" required="" type="text" style="width: 60px">
+          <input id="id_uf" name="uf" placeholder="" class="input-xlarge" required="" type="text" style="width: 60px">
         {% endif %}
         {{ form.uf.errors }}
 
@@ -104,9 +104,9 @@
       <label class="control-label">CEP</label>
       <div class="controls">
         {% if form.cep.value %}
-          <input id="cep" name="cep" placeholder="" class="input-xlarge" required="" type="text" style="width: 80px" value={{ form.cep.value }}>
+          <input id="id_cep" name="cep" placeholder="" class="input-xlarge" required="" type="text" style="width: 80px" value={{ form.cep.value }}>
         {% else %}
-          <input id="cep" name="cep" placeholder="" class="input-xlarge" required="" type="text" style="width: 80px">
+          <input id="id_cep" name="cep" placeholder="" class="input-xlarge" required="" type="text" style="width: 80px">
         {% endif %}
         {{ form.cep.errors }}
 
@@ -127,9 +127,9 @@
       <label class="control-label">Telefone Residencial</label>
       <div class="controls">
         {% if form.telefone.value %}
-          <input id="telefone" name="telefone" placeholder="" class="input-xlarge" required="" type="text" style="width: 120px" value={{ form.telefone.value }}>
+          <input id="id_telefone" name="telefone" placeholder="" class="input-xlarge" required="" type="text" style="width: 120px" value={{ form.telefone.value }}>
         {% else %}
-          <input id="telefone" name="telefone" placeholder="" class="input-xlarge" required="" type="text" style="width: 120px">
+          <input id="id_telefone" name="telefone" placeholder="" class="input-xlarge" required="" type="text" style="width: 120px">
         {% endif %}
         {{ form.telefone.errors }}
 
@@ -141,9 +141,9 @@
       <label class="control-label">Telefone Celular</label>
       <div class="controls">
         {% if form.celular.value %}
-          <input id="celular" name="celular" placeholder="" class="input-xlarge" required="" type="text" style="width: 120px" value={{ form.celular.value }}>
+          <input id="id_celular" name="celular" placeholder="" class="input-xlarge" required="" type="text" style="width: 120px" value={{ form.celular.value }}>
         {% else %}
-          <input id="celular" name="celular" placeholder="" class="input-xlarge" required="" type="text" style="width: 120px">
+          <input id="id_celular" name="celular" placeholder="" class="input-xlarge" required="" type="text" style="width: 120px">
         {% endif %}
         {{ form.celular.errors }}
 
@@ -155,9 +155,9 @@
       <label class="control-label">E-mail</label>
       <div class="controls">
         {% if form.email.value %}
-          <input id="email" name="email" placeholder="" class="input-xlarge" required="" type="text" style="width: 350px" value={{ form.email.value }}>
+          <input id="id_email" name="email" placeholder="" class="input-xlarge" required="" type="text" style="width: 350px" value={{ form.email.value }}>
         {% else %}
-          <input id="email" name="email" placeholder="" class="input-xlarge" required="" type="text" style="width: 350px">
+          <input id="id_email" name="email" placeholder="" class="input-xlarge" required="" type="text" style="width: 350px">
         {% endif %}
         {{ form.email.errors }}
 
@@ -169,9 +169,9 @@
       <label class="control-label">Data Nascimento</label>
       <div class="controls">
         {% if form.dataNascimento.value %}
-          <input id="dataNascimento" name="dataNascimento" placeholder="" class="input-xlarge" required="" type="date" style="width: 100px"value={{ form.dataNascimento }}>
+          <input id="id_dataNascimento" name="dataNascimento" placeholder="" class="input-xlarge" required="" type="date" style="width: 100px"value={{ form.dataNascimento }}>
         {% else %}
-          <input id="dataNascimento" name="dataNascimento" placeholder="" class="input-xlarge" required="" type="date" style="width: 100px">
+          <input id="id_dataNascimento" name="dataNascimento" placeholder="" class="input-xlarge" required="" type="date" style="width: 100px">
         {% endif %}
         {{ form.dataNascimento.errors }}
 
@@ -183,9 +183,9 @@
       <label class="control-label">Natural De?</label>
       <div class="controls">
         {% if form.naturalDe.value %}
-          <input id="naturalDe" name="naturalDe" placeholder="" class="input-xlarge" required="" type="text" style="width: 100px" value={{ form.naturalDe.value }}>
+          <input id="id_naturalDe" name="naturalDe" placeholder="" class="input-xlarge" required="" type="text" style="width: 100px" value={{ form.naturalDe.value }}>
         {% else %}
-          <input id="naturalDe" name="naturalDe" placeholder="" class="input-xlarge" required="" type="text" style="width: 100px">
+          <input id="id_naturalDe" name="naturalDe" placeholder="" class="input-xlarge" required="" type="text" style="width: 100px">
         {% endif %}
         {{ form.naturalDe.errors }}
 
@@ -197,9 +197,9 @@
       <label class="control-label">RG</label>
       <div class="controls">
         {% if form.rg.value %}
-          <input id="rg" name="rg" placeholder="" class="input-xlarge" required="" type="text" style="width: 100px" value={{ form.rg.value }}>
+          <input id="id_rg" name="rg" placeholder="" class="input-xlarge" required="" type="text" style="width: 100px" value={{ form.rg.value }}>
         {% else %}
-          <input id="rg" name="rg" placeholder="" class="input-xlarge" required="" type="text" style="width: 100px">
+          <input id="id_rg" name="rg" placeholder="" class="input-xlarge" required="" type="text" style="width: 100px">
         {% endif %}
 
       </div>
@@ -210,9 +210,9 @@
       <label class="control-label">CPF</label>
       <div class="controls">
         {% if form.cpf.value %}
-          <input id="cpf" name="cpf" placeholder="" class="input-xlarge" required="" type="text" style="width: 100px" value={{ form.cpf.value }}>
+          <input id="id_cpf" name="cpf" placeholder="" class="input-xlarge" required="" type="text" style="width: 100px" value={{ form.cpf.value }}>
         {% else %}
-          <input id="cpf" name="cpf" placeholder="" class="input-xlarge" required="" type="text" style="width: 100px">
+          <input id="id_cpf" name="cpf" placeholder="" class="input-xlarge" required="" type="text" style="width: 100px">
         {% endif %}
         {{ form.cpf.errors }}
       </div>
@@ -223,9 +223,9 @@
       <label class="control-label">Titulo de Eleitor</label>
       <div class="controls">
         {% if form.tituloEleitor.value %}
-          <input id="tituloEleitor" name="tituloEleitor" placeholder="" class="input-xlarge" required="" type="text" style="width: 100px" value={{ form.tituloEleitor.value }}>
+          <input id="id_tituloEleitor" name="tituloEleitor" placeholder="" class="input-xlarge" required="" type="text" style="width: 100px" value={{ form.tituloEleitor.value }}>
         {% else %}
-          <input id="tituloEleitor" name="tituloEleitor" placeholder="" class="input-xlarge" required="" type="text" style="width: 100px">
+          <input id="id_tituloEleitor" name="tituloEleitor" placeholder="" class="input-xlarge" required="" type="text" style="width: 100px">
         {% endif %}
         {{ form.tituloEleitor.errors }}
 
@@ -237,9 +237,9 @@
       <label class="control-label">Data Casamento</label>
       <div class="controls">
         {% if form.dataCasamento.value %}
-          <input id="dataCasamento" name="dataCasamento" placeholder="" class="input-xlarge" type="text" style="width: 100px" value={{ form.dataCasamento.value }}>
+          <input id="id_dataCasamento" name="dataCasamento" placeholder="" class="input-xlarge" type="text" style="width: 100px" value={{ form.dataCasamento.value }}>
         {% else %}
-          <input id="dataCasamento" name="dataCasamento" placeholder="" class="input-xlarge" type="text" style="width: 100px">
+          <input id="id_dataCasamento" name="dataCasamento" placeholder="" class="input-xlarge" type="text" style="width: 100px">
         {% endif %}
         {{ form.dataCasamento.errors }}
 
@@ -251,9 +251,9 @@
       <label class="control-label">Conjuge</label>
       <div class="controls">
         {% if form.conjuge.value %}
-          <input id="conjuge" name="conjuge" placeholder="" class="input-xlarge" type="text" style="width: 200px" value={{ form.conjuge.value }}>
+          <input id="id_conjuge" name="conjuge" placeholder="" class="input-xlarge" type="text" style="width: 200px" value={{ form.conjuge.value }}>
         {% else %}
-          <input id="conjuge" name="conjuge" placeholder="" class="input-xlarge" type="text" style="width: 200px">
+          <input id="id_conjuge" name="conjuge" placeholder="" class="input-xlarge" type="text" style="width: 200px">
         {% endif %}
         {{ form.conjuge.errors }}
 
@@ -265,9 +265,9 @@
       <label class="control-label">É Crente?</label>
       <div class="controls">
         {% if form.crente.value %}
-          <input id="crente" name="crente" placeholder="" class="input-xlarge" type="text" style="width: 200px" value={{ form.crente.value }}>
+          <input id="id_crente" name="crente" placeholder="" class="input-xlarge" type="text" style="width: 200px" value={{ form.crente.value }}>
         {% else %}
-          <input id="crente" name="crente" placeholder="" class="input-xlarge" type="text" style="width: 200px">
+          <input id="id_crente" name="crente" placeholder="" class="input-xlarge" type="text" style="width: 200px">
         {% endif %}
         {{ form.crente.errors }}
 
@@ -293,9 +293,9 @@
                       <label class="control-label">Data Conversão</label>
                       <div class="controls">
                         {% if form.dataConversaoDE.value %}
-                          <input id="dataConversaoDE" name="dataConversaoDE" placeholder="" class="input-xlarge" type="text" value={{ form.dataConversaoDE.value }}>
+                          <input id="id_dataConversaoDE" name="dataConversaoDE" placeholder="" class="input-xlarge" type="text" value={{ form.dataConversaoDE.value }}>
                         {% else %}
-                          <input id="dataConversaoDE" name="dataConversaoDE" placeholder="" class="input-xlarge" type="text">
+                          <input id="id_dataConversaoDE" name="dataConversaoDE" placeholder="" class="input-xlarge" type="text">
                         {% endif %}
                         {{ form.dataConversaoDE.errors }}
 
@@ -307,9 +307,9 @@
                       <label class="control-label">Igreja</label>
                       <div class="controls">
                         {% if form.igrejaDE.value %}
-                          <input id="igrejaDE" name="igrejaDE" placeholder="" class="input-xlarge" type="text" value={{ form.igrejaDE.value }}>
+                          <input id="id_igrejaDE" name="igrejaDE" placeholder="" class="input-xlarge" type="text" value={{ form.igrejaDE.value }}>
                         {% else %}
-                          <input id="igrejaDE" name="igrejaDE" placeholder="" class="input-xlarge" type="text">
+                          <input id="id_igrejaDE" name="igrejaDE" placeholder="" class="input-xlarge" type="text">
                         {% endif %}
                         {{ form.igrejaDE.errors }}
 
@@ -321,9 +321,9 @@
                       <label class="control-label">Org a que Pertence</label>
                       <div class="controls">
                         {% if form.orgpertenceDE.value %}
-                          <input id="orgpertenceDE" name="orgpertenceDE" placeholder="" class="input-xlarge" type="text" value={{ form.orgpertenceDE.value }}>
+                          <input id="id_orgpertenceDE" name="orgpertenceDE" placeholder="" class="input-xlarge" type="text" value={{ form.orgpertenceDE.value }}>
                         {% else %}
-                          <input id="orgpertenceDE" name="orgpertenceDE" placeholder="" class="input-xlarge" type="text">
+                          <input id="id_orgpertenceDE" name="orgpertenceDE" placeholder="" class="input-xlarge" type="text">
                         {% endif %}
                         {{ form.orgpertenceDE.errors }}
 
@@ -335,9 +335,9 @@
                       <label class="control-label">Congregação</label>
                       <div class="controls">
                         {% if form.congregacaoDE.value %}
-                          <input id="congregacaoDE" name="congregacaoDE" placeholder="" class="input-xlarge" type="text" value={{ form.congregacaoDE.value }}>
+                          <input id="id_congregacaoDE" name="congregacaoDE" placeholder="" class="input-xlarge" type="text" value={{ form.congregacaoDE.value }}>
                         {% else %}
-                          <input id="congregacaoDE" name="congregacaoDE" placeholder="" class="input-xlarge" type="text">
+                          <input id="id_congregacaoDE" name="congregacaoDE" placeholder="" class="input-xlarge" type="text">
                         {% endif %}
                         {{ form.congregacaoDE.errors }}
 
@@ -349,9 +349,9 @@
                       <label class="control-label">Data de Batismo</label>
                       <div class="controls">
                         {% if form.dataBatismoDE.value %}
-                          <input id="dataBatismoDE" name="dataBatismoDE" placeholder="" class="input-xlarge" type="text" value={{ form.dataBatismoDE.value }}>
+                          <input id="id_dataBatismoDE" name="dataBatismoDE" placeholder="" class="input-xlarge" type="text" value={{ form.dataBatismoDE.value }}>
                         {% else %}
-                          <input id="dataBatismoDE" name="dataBatismoDE" placeholder="" class="input-xlarge" type="text">
+                          <input id="id_dataBatismoDE" name="dataBatismoDE" placeholder="" class="input-xlarge" type="text">
                         {% endif %}
                         {{ form.dataBatismoDE.errors }}
 
@@ -363,9 +363,9 @@
                       <label class="control-label">Igreja</label>
                       <div class="controls">
                         {% if form.igrejaDBatismoDE.value %}
-                          <input id="igrejaDBatismoDE" name="igrejaDBatismoDE" placeholder="" class="input-xlarge" type="text" value={{ form.igrejaDBatismoDE.value }}>
+                          <input id="id_igrejaDBatismoDE" name="igrejaDBatismoDE" placeholder="" class="input-xlarge" type="text" value={{ form.igrejaDBatismoDE.value }}>
                         {% else %}
-                          <input id="igrejaDBatismoDE" name="igrejaDBatismoDE" placeholder="" class="input-xlarge" type="text">
+                          <input id="id_igrejaDBatismoDE" name="igrejaDBatismoDE" placeholder="" class="input-xlarge" type="text">
                         {% endif %}
                         {{ form.igrejaDBatismoDE.errors }}
 
@@ -377,9 +377,9 @@
                       <label class="control-label">Classe da EBD</label>
                       <div class="controls">
                         {% if form.classeEBDDE.value %}
-                          <input id="classeEBDDE" name="classeEBDDE" placeholder="" class="input-xlarge" type="text" value={{ form.classeEBDDE.value }}>
+                          <input id="id_classeEBDDE" name="classeEBDDE" placeholder="" class="input-xlarge" type="text" value={{ form.classeEBDDE.value }}>
                         {% else %}
-                          <input id="classeEBDDE" name="classeEBDDE" placeholder="" class="input-xlarge" type="text">
+                          <input id="id_classeEBDDE" name="classeEBDDE" placeholder="" class="input-xlarge" type="text">
                         {% endif %}
                         {{ form.classeEBDDE.errors }}
 
@@ -391,9 +391,9 @@
                       <label class="control-label">Cargos/Funções</label>
                       <div class="controls">
                         {% if form.cargosefuncoesDE.value %}
-                          <input id="cargosefuncoesDE" name="cargosefuncoesDE" placeholder="" class="input-xlarge" type="text" value={{ form.cargosefuncoesDE.value }}>
+                          <input id="id_cargosefuncoesDE" name="cargosefuncoesDE" placeholder="" class="input-xlarge" type="text" value={{ form.cargosefuncoesDE.value }}>
                         {% else %}
-                          <input id="cargosefuncoesDE" name="cargosefuncoesDE" placeholder="" class="input-xlarge" type="text">
+                          <input id="id_cargosefuncoesDE" name="cargosefuncoesDE" placeholder="" class="input-xlarge" type="text">
                         {% endif %}
                         {{ form.cargosefuncoesDE.errors }}
 
@@ -405,9 +405,9 @@
                       <label class="control-label">Recebido com carta? Data:</label>
                       <div class="controls">
                         {% if form.recebidoCartaDataDE.value %}
-                          <input id="recebidoCartaDataDE" name="recebidoCartaDataDE" placeholder="" class="input-xlarge" type="text" value={{ form.recebidoCartaDataDE.value }}>
+                          <input id="id_recebidoCartaDataDE" name="recebidoCartaDataDE" placeholder="" class="input-xlarge" type="text" value={{ form.recebidoCartaDataDE.value }}>
                         {% else %}
-                          <input id="recebidoCartaDataDE" name="recebidoCartaDataDE" placeholder="" class="input-xlarge" type="text">
+                          <input id="id_recebidoCartaDataDE" name="recebidoCartaDataDE" placeholder="" class="input-xlarge" type="text">
                         {% endif %}
                         {{ form.recebidoCartaDataDE.errors }}
 
@@ -419,9 +419,9 @@
                       <label class="control-label">Igreja de Origem</label>
                       <div class="controls">
                         {% if form.igrejaOrigemDE.value %}
-                          <input id="igrejaOrigemDE" name="igrejaOrigemDE" placeholder="" class="input-xlarge" type="text" value={{ form.igrejaOrigemDE.value }}>
+                          <input id="id_igrejaOrigemDE" name="igrejaOrigemDE" placeholder="" class="input-xlarge" type="text" value={{ form.igrejaOrigemDE.value }}>
                         {% else %}
-                          <input id="igrejaOrigemDE" name="igrejaOrigemDE" placeholder="" class="input-xlarge" type="text">
+                          <input id="id_igrejaOrigemDE" name="igrejaOrigemDE" placeholder="" class="input-xlarge" type="text">
                         {% endif %}
                         {{ form.igrejaOrigemDE.errors }}
 
@@ -433,9 +433,9 @@
                       <label class="control-label">Data de Saida:</label>
                       <div class="controls">
                         {% if form.dataSaida.value %}
-                          <input id="dataSaida" name="dataSaida" placeholder="" class="input-xlarge" type="text" value={{ form.dataSaida.value }}>
+                          <input id="id_dataSaida" name="dataSaida" placeholder="" class="input-xlarge" type="text" value={{ form.dataSaida.value }}>
                         {% else %}
-                          <input id="dataSaida" name="dataSaida" placeholder="" class="input-xlarge" type="text">
+                          <input id="id_dataSaida" name="dataSaida" placeholder="" class="input-xlarge" type="text">
                         {% endif %}
                         {{ form.dataSaida.errors }}
 
@@ -459,9 +459,9 @@
                   <label class="control-label">Nome do Pai</label>
                   <div class="controls">
                     {% if form.nomePai.value %}
-                      <input id="nomePai" name="nomePai" placeholder="" class="input-xlarge" type="text" style="width: 800px" value={{ form.nomePai.value }}>
+                      <input id="id_nomePai" name="nomePai" placeholder="" class="input-xlarge" type="text" style="width: 800px" value={{ form.nomePai.value }}>
                     {% else %}
-                      <input id="nomePai" name="nomePai" placeholder="" class="input-xlarge" type="text" style="width: 800px">
+                      <input id="id_nomePai" name="nomePai" placeholder="" class="input-xlarge" type="text" style="width: 800px">
                     {% endif %}
                     {{ form.nomePai.errors }}
 
@@ -473,9 +473,9 @@
                   <label class="control-label">Nome da Mãe</label>
                   <div class="controls">
                     {% if form.nomeMae.value %}
-                      <input id="nomeMae" name="nomeMae" placeholder="" class="input-xlarge" type="text" style="width: 800px" value={{ form.nomeMae.value }}>
+                      <input id="id_nomeMae" name="nomeMae" placeholder="" class="input-xlarge" type="text" style="width: 800px" value={{ form.nomeMae.value }}>
                     {% else %}
-                      <input id="nomeMae" name="nomeMae" placeholder="" class="input-xlarge" type="text" style="width: 800px">
+                      <input id="id_nomeMae" name="nomeMae" placeholder="" class="input-xlarge" type="text" style="width: 800px">
                     {% endif %}
                     {{ form.nomeMae.errors }}
 
@@ -488,9 +488,9 @@
                       <label class="control-label">Área</label>
                       <div class="controls">
                         {% if form.area1PTS.value %}
-                          <input id="area1PTS" name="area1PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px" value={{ form.area1PTS.value }}>
+                          <input id="id_area1PTS" name="area1PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px" value={{ form.area1PTS.value }}>
                         {% else %}
-                          <input id="area1PTS" name="area1PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px">
+                          <input id="id_area1PTS" name="area1PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px">
                         {% endif %}
                         {{ form.area1PTS.errors }}
 
@@ -502,9 +502,9 @@
                       <label class="control-label">Função</label>
                       <div class="controls">
                         {% if form.funcao1PTS.value %}
-                          <input id="funcao1PTS" name="funcao1PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px" value={{ form.funcao1PTS.value }}>
+                          <input id="id_funcao1PTS" name="funcao1PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px" value={{ form.funcao1PTS.value }}>
                         {% else %}
-                          <input id="funcao1PTS" name="funcao1PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px">
+                          <input id="id_funcao1PTS" name="funcao1PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px">
                         {% endif %}
                         {{ form.funcao1PTS.errors }}
 
@@ -516,9 +516,9 @@
                       <label class="control-label">Área</label>
                       <div class="controls">
                         {% if form.area2PTS.value %}
-                          <input id="area2PTS" name="area2PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px" value={{ form.area2PTS.value }}>
+                          <input id="id_area2PTS" name="area2PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px" value={{ form.area2PTS.value }}>
                         {% else %}
-                          <input id="area2PTS" name="area2PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px">
+                          <input id="id_area2PTS" name="area2PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px">
                         {% endif %}
                         {{ form.area2PTS.errors }}
 
@@ -530,9 +530,9 @@
                       <label class="control-label">Função</label>
                       <div class="controls">
                         {% if form.funcao2PTS.value %}
-                          <input id="funcao2PTS" name="funcao2PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px" value={{ form.funcao2PTS.value }}>
+                          <input id="id_funcao2PTS" name="funcao2PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px" value={{ form.funcao2PTS.value }}>
                         {% else %}
-                          <input id="funcao2PTS" name="funcao2PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px">
+                          <input id="id_funcao2PTS" name="funcao2PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px">
                         {% endif %}
                         {{ form.funcao2PTS.errors }}
 
@@ -544,9 +544,9 @@
                       <label class="control-label">Área</label>
                       <div class="controls">
                         {% if form.area3PTS.value %}
-                          <input id="area3PTS" name="area3PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px" value={{ form.area3PTS.value }}>
+                          <input id="id_area3PTS" name="area3PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px" value={{ form.area3PTS.value }}>
                         {% else %}
-                          <input id="area3PTS" name="area3PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px">
+                          <input id="id_area3PTS" name="area3PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px">
                         {% endif %}
                         {{ form.area3PTS.errors }}
 
@@ -558,9 +558,9 @@
                       <label class="control-label">Função</label>
                       <div class="controls">
                         {% if form.funcao3PTS.value %}
-                          <input id="funcao3PTS" name="funcao3PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px" value={{ form.funcao3PTS.value }}>
+                          <input id="id_funcao3PTS" name="funcao3PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px" value={{ form.funcao3PTS.value }}>
                         {% else %}
-                          <input id="funcao3PTS" name="funcao3PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px">
+                          <input id="id_funcao3PTS" name="funcao3PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px">
                         {% endif %}
                         {{ form.funcao3PTS.errors }}
 
@@ -572,9 +572,9 @@
                       <label class="control-label">Área</label>
                       <div class="controls">
                         {% if form.area4PTS.value %}
-                          <input id="area4PTS" name="area4PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px" value={{ form.area4PTS.value }}>
+                          <input id="id_area4PTS" name="area4PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px" value={{ form.area4PTS.value }}>
                         {% else %}
-                          <input id="area4PTS" name="area4PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px">
+                          <input id="id_area4PTS" name="area4PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px">
                         {% endif %}
                         {{ form.area4PTS.errors }}
 
@@ -586,9 +586,9 @@
                       <label class="control-label">Função</label>
                       <div class="controls">
                         {% if form.funcao4PTS.value %}
-                          <input id="funcao4PTS" name="funcao4PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px" value={{ form.funcao4PTS.value }}>
+                          <input id="id_funcao4PTS" name="funcao4PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px" value={{ form.funcao4PTS.value }}>
                         {% else %}
-                          <input id="funcao4PTS" name="funcao4PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px">
+                          <input id="id_funcao4PTS" name="funcao4PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px">
                         {% endif %}
                         {{ form.funcao4PTS.errors }}
 

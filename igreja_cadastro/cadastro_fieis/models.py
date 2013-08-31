@@ -6,13 +6,13 @@ from django.utils.translation import ugettext as _
 class CadastroFieis(models.Model):
 
     SEXO = (
-        (0, 'Masculino'),
-        (1, 'Feminino'),
+        (u'1', u'Masculino'),
+        (u'2', u'Feminino'),
     )
 
     ESTADO_CIVIL = (
-        (0, 'Solteiro(a)'),
-        (1, 'Casado(a)'),
+        (u'1', u'Solteiro(a)'),
+        (u'2', u'Casado(a)'),
     )
 
     nome = models.CharField(_('nome'), max_length=100)
@@ -22,7 +22,7 @@ class CadastroFieis(models.Model):
     bairro = models.CharField(_('bairro'), max_length=100)
     cidade = models.CharField(_('cidade'), max_length=150)
     uf = models.CharField(_('UF'), max_length=2)
-    cep = models.CharField(_('CEP'), max_length=7)
+    cep = models.CharField(_('CEP'), max_length=10)
     estadoCivil = models.CharField(choices=ESTADO_CIVIL, max_length=20)
     telefone = models.CharField(_('telefone'), max_length=10)
     celular = models.CharField(_('celular'), max_length=12)
@@ -46,16 +46,16 @@ class CadastroFieis(models.Model):
     recebidoCartaDataDE = models.DateField(_('recebido com carta? data:'), max_length=10)
     igrejaOrigemDE = models.CharField(_('igreja de origem'), max_length=255)
     dataSaida = models.DateField(_('data de saida:'), max_length=10)
-    nomePai = models.DateField(_('nome do pai:'), max_length=100)
-    nomeMae = models.DateField(_('nome da mae:'), max_length=100)
-    area1PTS = models.DateField(_('area'), max_length=200)
-    funcao1PTS = models.DateField(_('funcao'), max_length=200)
-    area2PTS = models.DateField(_('area'), max_length=200)
-    funcao2PTS = models.DateField(_('funcao'), max_length=200)
-    area3PTS = models.DateField(_('area'), max_length=200)
-    funcao3PTS = models.DateField(_('funcao'), max_length=200)
-    area4PTS = models.DateField(_('area'), max_length=200)
-    funcao4PTS = models.DateField(_('funcao'), max_length=200)
+    nomePai = models.CharField(_('nome do pai:'), max_length=100)
+    nomeMae = models.CharField(_('nome da mae:'), max_length=100)
+    area1PTS = models.CharField(_('area'), max_length=200)
+    funcao1PTS = models.CharField(_('funcao'), max_length=200)
+    area2PTS = models.CharField(_('area'), max_length=200)
+    funcao2PTS = models.CharField(_('funcao'), max_length=200)
+    area3PTS = models.CharField(_('area'), max_length=200)
+    funcao3PTS = models.CharField(_('funcao'), max_length=200)
+    area4PTS = models.CharField(_('area'), max_length=200)
+    funcao4PTS = models.CharField(_('funcao'), max_length=200)
     criado_em = models.DateTimeField(auto_now_add=True)
 
     def __unicode__(self):
