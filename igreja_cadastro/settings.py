@@ -11,6 +11,8 @@ ADMINS = (
 
 MANAGERS = ADMINS
 
+SOUTH_TESTE_MIGRATE = False
+
 PROJECT_DIR = Path(__file__).parent
 
 
@@ -134,6 +136,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     # Uncomment the next line to enable the admin:
     'django.contrib.admin',
+    'south',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
     'igreja_cadastro.core',
