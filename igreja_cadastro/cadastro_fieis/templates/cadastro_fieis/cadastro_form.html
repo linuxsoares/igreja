@@ -3,9 +3,9 @@
 
 <form class="form-horizontal well" action="." method="POST" >
     {% csrf_token %}
-    {{ form.non_field_errors }}
-    <fieldset>
 
+    <fieldset>
+    {{ form.non_field_errors }}
     <!-- Form Name -->
     <legend style="text-align: center">Cadastro de Fiéis</legend>
 
@@ -13,21 +13,23 @@
     <div class="control-group" style='float: left'>
       <label class="control-label">Nome</label>
       <div class="controls">
-        <input id="nome" name="nome" placeholder="" style="width: 700px " class="input-xlarge" required="" type="text">
-
+            {% if form.nome.value %}
+                <input id="nome" type="text" class="input-xlarge" name="nome" required="" maxlength="100" style="width: 600px" value={{ form.nome.value }} />
+            {% else %}
+                <input id="nome" type="text" class="input-xlarge" name="nome" required="" maxlength="100" style="width: 600px"/>
+            {% endif %}
+            {{ form.nome.errors }}
       </div>
     </div>
 
     <br />
 
     <!-- Select Basic -->
-    <div class="control-group" style='float: left'>
+    <div class="control-group" style='float: right'>
       <label class="control-label">Sexo</label>
       <div class="controls">
-        <select id="sexo" name="sexo" class="input-xlarge" style="width: 100px">
-          <option>Masculino</option>
-          <option>Feminino</option>
-        </select>
+          {{ form.sexo }}
+          {{ form.sexo.errors }}
       </div>
     </div>
 
@@ -35,17 +37,25 @@
     <div class="control-group" style='float: left'>
       <label class="control-label">Endereço</label>
       <div class="controls">
-        <input id="endereco" name="endereco" placeholder="" class="input-xlarge" required="" type="text" style="width: 750px">
-
+        {% if form.endereco.value %}
+            <input id="endereco" name="endereco" placeholder="" class="input-xlarge" required="" type="text" style="width: 780px" value={{ form.endereco }}>
+        {% else %}
+            <input id="endereco" name="endereco" placeholder="" class="input-xlarge" required="" type="text" style="width: 780px">
+        {% endif %}
+        {{ form.endereco.errors }}
       </div>
     </div>
 
     <!-- Text input-->
-    <div class="control-group" style='float: left'>
+    <div class="control-group" style='float: right'>
       <label class="control-label">Numero</label>
       <div class="controls">
-        <input id="numero" name="numero" placeholder="" class="input-xlarge" required="" type="text" style="width: 50px">
-
+        {% if form.numero.value %}
+          <input id="numero" name="numero" placeholder="" class="input-xlarge" required="" type="text" style="width: 50px" value={{ form.numero }}>
+        {% else %}
+          <input id="numero" name="numero" placeholder="" class="input-xlarge" required="" type="text" style="width: 50px">
+        {% endif %}
+        {{ form.numero.errors }}
       </div>
     </div>
 
@@ -53,8 +63,12 @@
     <div class="control-group" style='float: left'>
       <label class="control-label">Bairro</label>
       <div class="controls">
-        <input id="bairro" name="bairro" placeholder="" class="input-xlarge" required="" type="text">
-
+          {% if form.bairro.value %}
+            <input id="bairro" name="bairro" placeholder="" class="input-xlarge" required="" type="text" style="width: 200px" value={{ form.bairro }}>
+          {% else %}
+            <input id="bairro" name="bairro" placeholder="" class="input-xlarge" required="" type="text" style="width: 200px" >
+          {% endif %}
+          {{ form.bairro.errors }}
       </div>
     </div>
 
@@ -62,7 +76,11 @@
     <div class="control-group" style='float: left'>
       <label class="control-label">Cidade</label>
       <div class="controls">
-        <input id="cidade" name="cidade" placeholder="" class="input-xlarge" required="" type="text">
+        {% if form.cidade.value %}
+          <input id="cidade" name="cidade" placeholder="" class="input-xlarge" required="" type="text" style="width: 200px" value={{ form.cidade }}>
+        {% else %}
+          <input id="cidade" name="cidade" placeholder="" class="input-xlarge" required="" type="text" style="width: 200px">
+        {% endif %}
 
       </div>
     </div>
@@ -71,7 +89,12 @@
     <div class="control-group" style='float: left'>
       <label class="control-label">UF</label>
       <div class="controls">
-        <input id="uf" name="uf" placeholder="" class="input-xlarge" required="" type="text" style="width: 60px">
+        {% if form.uf.value %}
+          <input id="uf" name="uf" placeholder="" class="input-xlarge" required="" type="text" style="width: 60px" value={{ form.uf.value }}>
+        {% else %}
+          <input id="uf" name="uf" placeholder="" class="input-xlarge" required="" type="text" style="width: 60px">
+        {% endif %}
+        {{ form.uf.errors }}
 
       </div>
     </div>
@@ -80,7 +103,12 @@
     <div class="control-group" style='float: left'>
       <label class="control-label">CEP</label>
       <div class="controls">
-        <input id="cep" name="cep" placeholder="" class="input-xlarge" required="" type="text" style="width: 100px">
+        {% if form.cep.value %}
+          <input id="cep" name="cep" placeholder="" class="input-xlarge" required="" type="text" style="width: 80px" value={{ form.cep.value }}>
+        {% else %}
+          <input id="cep" name="cep" placeholder="" class="input-xlarge" required="" type="text" style="width: 80px">
+        {% endif %}
+        {{ form.cep.errors }}
 
       </div>
     </div>
@@ -89,36 +117,49 @@
     <div class="control-group" style='float: left'>
       <label class="control-label">Estado Civil</label>
       <div class="controls">
-        <select id="estadoCivil" name="estadocivil" class="input-xlarge" style="width: 100px">
-          <option>Casado(a)</option>
-          <option>Solteiro(a)</option>
-        </select>
+        {{ form.estadoCivil }}
+        {{ form.estadoCivil.errors }}
       </div>
     </div>
 
     <!-- Text input-->
     <div class="control-group" style='float: left'>
-      <label class="control-label">Telefone</label>
+      <label class="control-label">Telefone Residencial</label>
       <div class="controls">
-        <input id="telefone" name="telefone" placeholder="" class="input-xlarge" required="" type="text" style="width: 100px">
+        {% if form.telefone.value %}
+          <input id="telefone" name="telefone" placeholder="" class="input-xlarge" required="" type="text" style="width: 120px" value={{ form.telefone.value }}>
+        {% else %}
+          <input id="telefone" name="telefone" placeholder="" class="input-xlarge" required="" type="text" style="width: 120px">
+        {% endif %}
+        {{ form.telefone.errors }}
 
       </div>
     </div>
 
     <!-- Text input-->
     <div class="control-group" style='float: left'>
-      <label class="control-label">Celular</label>
+      <label class="control-label">Telefone Celular</label>
       <div class="controls">
-        <input id="celular" name="celular" placeholder="" class="input-xlarge" required="" type="text" style="width: 100px">
+        {% if form.celular.value %}
+          <input id="celular" name="celular" placeholder="" class="input-xlarge" required="" type="text" style="width: 120px" value={{ form.celular.value }}>
+        {% else %}
+          <input id="celular" name="celular" placeholder="" class="input-xlarge" required="" type="text" style="width: 120px">
+        {% endif %}
+        {{ form.celular.errors }}
 
       </div>
     </div>
 
     <!-- Text input-->
-    <div class="control-group" style='float: left'>
+    <div class="control-group" >
       <label class="control-label">E-mail</label>
       <div class="controls">
-        <input id="email" name="email" placeholder="" class="input-xlarge" required="" type="text">
+        {% if form.email.value %}
+          <input id="email" name="email" placeholder="" class="input-xlarge" required="" type="text" style="width: 350px" value={{ form.email.value }}>
+        {% else %}
+          <input id="email" name="email" placeholder="" class="input-xlarge" required="" type="text" style="width: 350px">
+        {% endif %}
+        {{ form.email.errors }}
 
       </div>
     </div>
@@ -127,7 +168,12 @@
     <div class="control-group" style='float: left'>
       <label class="control-label">Data Nascimento</label>
       <div class="controls">
-        <input id="dataNascimento" name="dataNascimento" placeholder="" class="input-xlarge" required="" type="text" style="width: 100px">
+        {% if form.dataNascimento.value %}
+          <input id="dataNascimento" name="dataNascimento" placeholder="" class="input-xlarge" required="" type="date" style="width: 100px"value={{ form.dataNascimento }}>
+        {% else %}
+          <input id="dataNascimento" name="dataNascimento" placeholder="" class="input-xlarge" required="" type="date" style="width: 100px">
+        {% endif %}
+        {{ form.dataNascimento.errors }}
 
       </div>
     </div>
@@ -136,7 +182,12 @@
     <div class="control-group" style='float: left'>
       <label class="control-label">Natural De?</label>
       <div class="controls">
-        <input id="naturalDe" name="naturalDe" placeholder="" class="input-xlarge" required="" type="text" style="width: 100px">
+        {% if form.naturalDe.value %}
+          <input id="naturalDe" name="naturalDe" placeholder="" class="input-xlarge" required="" type="text" style="width: 100px" value={{ form.naturalDe.value }}>
+        {% else %}
+          <input id="naturalDe" name="naturalDe" placeholder="" class="input-xlarge" required="" type="text" style="width: 100px">
+        {% endif %}
+        {{ form.naturalDe.errors }}
 
       </div>
     </div>
@@ -145,7 +196,11 @@
     <div class="control-group" style='float: left'>
       <label class="control-label">RG</label>
       <div class="controls">
-        <input id="rg" name="rg" placeholder="" class="input-xlarge" required="" type="text" style="width: 100px">
+        {% if form.rg.value %}
+          <input id="rg" name="rg" placeholder="" class="input-xlarge" required="" type="text" style="width: 100px" value={{ form.rg.value }}>
+        {% else %}
+          <input id="rg" name="rg" placeholder="" class="input-xlarge" required="" type="text" style="width: 100px">
+        {% endif %}
 
       </div>
     </div>
@@ -154,8 +209,12 @@
     <div class="control-group" style='float: left'>
       <label class="control-label">CPF</label>
       <div class="controls">
-        <input id="cpf" name="cpf" placeholder="" class="input-xlarge" required="" type="text" style="width: 100px">
-
+        {% if form.cpf.value %}
+          <input id="cpf" name="cpf" placeholder="" class="input-xlarge" required="" type="text" style="width: 100px" value={{ form.cpf.value }}>
+        {% else %}
+          <input id="cpf" name="cpf" placeholder="" class="input-xlarge" required="" type="text" style="width: 100px">
+        {% endif %}
+        {{ form.cpf.errors }}
       </div>
     </div>
 
@@ -163,7 +222,12 @@
     <div class="control-group" style='float: left'>
       <label class="control-label">Titulo de Eleitor</label>
       <div class="controls">
-        <input id="tituloEleitor" name="tituloEleitor" placeholder="" class="input-xlarge" required="" type="text" style="width: 100px">
+        {% if form.tituloEleitor.value %}
+          <input id="tituloEleitor" name="tituloEleitor" placeholder="" class="input-xlarge" required="" type="text" style="width: 100px" value={{ form.tituloEleitor.value }}>
+        {% else %}
+          <input id="tituloEleitor" name="tituloEleitor" placeholder="" class="input-xlarge" required="" type="text" style="width: 100px">
+        {% endif %}
+        {{ form.tituloEleitor.errors }}
 
       </div>
     </div>
@@ -178,10 +242,10 @@
     </div>
 
     <!-- Text input-->
-    <div class="control-group" style='float: left'>
+    <div class="control-group" >
       <label class="control-label">Conjuge</label>
       <div class="controls">
-        <input id="conjuge" name="conjuge" placeholder="" class="input-xlarge" type="text">
+        <input id="conjuge" name="conjuge" placeholder="" class="input-xlarge" type="text" style="width: 200px">
 
       </div>
     </div>
@@ -190,7 +254,7 @@
     <div class="control-group" >
       <label class="control-label">É Crente?</label>
       <div class="controls">
-        <input id="crente" name="crente" placeholder="" class="input-xlarge" type="text">
+        <input id="crente" name="crente" placeholder="" class="input-xlarge" type="text" style="width: 200px">
 
       </div>
     </div>
@@ -201,15 +265,216 @@
 
     <div class="control-group">
         <ul class="nav nav-tabs" id="myTab">
-            <li class="active"><a href="#home">Dados Eclesiásticos</a></li>
+            <li class="active"><a href="#dadosEclesiasticos">Dados Eclesiásticos</a></li>
             <li><a href="#profile">Filiação</a></li>
             <li><a href="#messages">Preferência e Talentos para o Serviço</a></li>
         </ul>
 
         <div class="tab-content">
-            <div class="tab-pane active" id="home">Dados Eclesiásticos</div>
-            <div class="tab-pane" id="profile">Filiação</div>
-            <div class="tab-pane" id="messages">Preferência e Talentos para o Serviço</div>
+            <div class="tab-pane active" id="dadosEclesiasticos">
+                <div class="controls">
+                    <!-- Text input-->
+                    <div class="control-group" style='float: left'>
+                      <label class="control-label">Data Conversão</label>
+                      <div class="controls">
+                        <input id="dataConversaoDE" name="dataConversaoDE" placeholder="" class="input-xlarge" type="text">
+
+                      </div>
+                    </div>
+
+                    <!-- Text input-->
+                    <div class="control-group">
+                      <label class="control-label">Igreja</label>
+                      <div class="controls">
+                        <input id="igrejaDE" name="igrejaDE" placeholder="" class="input-xlarge" type="text">
+
+                      </div>
+                    </div>
+
+                    <!-- Text input-->
+                    <div class="control-group" style='float: left'>
+                      <label class="control-label">Org a que Pertence</label>
+                      <div class="controls">
+                        <input id="orgpertenceDE" name="orgpertenceDE" placeholder="" class="input-xlarge" type="text">
+
+                      </div>
+                    </div>
+
+                    <!-- Text input-->
+                    <div class="control-group">
+                      <label class="control-label">Congregação</label>
+                      <div class="controls">
+                        <input id="congregacaoDE" name="congregacaoDE" placeholder="" class="input-xlarge" type="text">
+
+                      </div>
+                    </div>
+
+                    <!-- Text input-->
+                    <div class="control-group" style='float: left'>
+                      <label class="control-label">Data de Batismo</label>
+                      <div class="controls">
+                        <input id="dataBatismoDE" name="dataBatismoDE" placeholder="" class="input-xlarge" type="text">
+
+                      </div>
+                    </div>
+
+                    <!-- Text input-->
+                    <div class="control-group">
+                      <label class="control-label">Igreja</label>
+                      <div class="controls">
+                        <input id="igrejaDBatismoDE" name="igrejaDBatismoDE" placeholder="" class="input-xlarge" type="text">
+
+                      </div>
+                    </div>
+
+                    <!-- Text input-->
+                    <div class="control-group" style='float: left'>
+                      <label class="control-label">Classe da EBD</label>
+                      <div class="controls">
+                        <input id="classeEBDDE" name="classeEBDDE" placeholder="" class="input-xlarge" type="text">
+
+                      </div>
+                    </div>
+
+                    <!-- Text input-->
+                    <div class="control-group">
+                      <label class="control-label">Cargos/Funções</label>
+                      <div class="controls">
+                        <input id="cargosefuncoesDE" name="cargosefuncoesDE" placeholder="" class="input-xlarge" type="text">
+
+                      </div>
+                    </div>
+
+                    <!-- Text input-->
+                    <div class="control-group" style='float: left'>
+                      <label class="control-label">Recebido com carta? Data:</label>
+                      <div class="controls">
+                        <input id="recebidoCartaDataDE" name="recebidoCartaDataDE" placeholder="" class="input-xlarge" type="text">
+
+                      </div>
+                    </div>
+
+                    <!-- Text input-->
+                    <div class="control-group">
+                      <label class="control-label">Igreja de Origem</label>
+                      <div class="controls">
+                        <input id="igrejaOrigemDE" name="igrejaOrigemDE" placeholder="" class="input-xlarge" type="text">
+
+                      </div>
+                    </div>
+
+                    <!-- Text input-->
+                    <div class="control-group" style='float: left'>
+                      <label class="control-label">Data de Saida:</label>
+                      <div class="controls">
+                        <input id="dataSaida" name="dataSaida" placeholder="" class="input-xlarge" type="text">
+
+                      </div>
+                    </div>
+
+                    <!-- Text input-->
+                    <div class="control-group">
+                      <label class="control-label">Modo:</label>
+                      <div class="controls">
+                        <input id="modo" name="modo" placeholder="" class="input-xlarge" type="text">
+
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane" id="profile">
+                <!-- Text input-->
+                <div class="control-group">
+                  <label class="control-label">Nome do Pai</label>
+                  <div class="controls">
+                    <input id="pai" name="pai" placeholder="" class="input-xlarge" type="text" style="width: 800px">
+
+                  </div>
+                </div>
+
+                <!-- Text input-->
+                <div class="control-group">
+                  <label class="control-label">Nome da Mãe</label>
+                  <div class="controls">
+                    <input id="nomeMae" name="nomeMae" placeholder="" class="input-xlarge" required="" type="text" style="width: 800px">
+
+                  </div>
+                </div>
+            </div>
+            <div class="tab-pane" id="messages">
+                <!-- Text input-->
+                    <div class="control-group" style='float: left'>
+                      <label class="control-label">Área</label>
+                      <div class="controls">
+                        <input id="area1PTS" name="area1PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px">
+
+                      </div>
+                    </div>
+
+                    <!-- Text input-->
+                    <div class="control-group">
+                      <label class="control-label">Função</label>
+                      <div class="controls">
+                        <input id="funcao1PTS" name="funcao1PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px">
+
+                      </div>
+                    </div>
+
+                    <!-- Text input-->
+                    <div class="control-group" style='float: left'>
+                      <label class="control-label">Área</label>
+                      <div class="controls">
+                        <input id="area2PTS" name="area2PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px">
+
+                      </div>
+                    </div>
+
+                    <!-- Text input-->
+                    <div class="control-group">
+                      <label class="control-label">Função</label>
+                      <div class="controls">
+                        <input id="funcao2PTS" name="funcao2PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px">
+
+                      </div>
+                    </div>
+
+                    <!-- Text input-->
+                    <div class="control-group" style='float: left'>
+                      <label class="control-label">Área</label>
+                      <div class="controls">
+                        <input id="area3PTS" name="area3PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px">
+
+                      </div>
+                    </div>
+
+                    <!-- Text input-->
+                    <div class="control-group">
+                      <label class="control-label">Função</label>
+                      <div class="controls">
+                        <input id="funcao3PTS" name="funcao3PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px">
+
+                      </div>
+                    </div>
+
+                    <!-- Text input-->
+                    <div class="control-group" style='float: left'>
+                      <label class="control-label">Área</label>
+                      <div class="controls">
+                        <input id="area4PTS" name="area4PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px">
+
+                      </div>
+                    </div>
+
+                    <!-- Text input-->
+                    <div class="control-group">
+                      <label class="control-label">Função</label>
+                      <div class="controls">
+                        <input id="funcao4PTS" name="funcao4PTS" placeholder="" class="input-xlarge" type="text" style="width: 400px">
+
+                      </div>
+                    </div>
+            </div>
         </div>
 
         <script>
