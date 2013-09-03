@@ -39,7 +39,7 @@ class CadastroFieis(models.Model):
     igrejaDE = models.CharField(_('igreja'), max_length=100, blank=True)
     orgpertenceDE = models.CharField(_('org a que pertence'), max_length=200, blank=True)
     congregacaoDE = models.CharField(_('congregacao'), max_length=200, blank=True)
-    dataBatismoDE = models.DateField(_('data de batismo'), max_length=10, blank=True)
+    dataBatismoDE = models.CharField(_('data de batismo'), max_length=10, blank=True)
     igrejaDBatismoDE = models.CharField(_('igreja'), max_length=150, blank=True)
     classeEBDDE = models.CharField(_('classe da ebd'), max_length=255, blank=True)
     cargosefuncoesDE = models.CharField(_('cargos/funcoes'), max_length=255, blank=True)
