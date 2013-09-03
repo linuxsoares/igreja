@@ -41,12 +41,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="admin.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="admin.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/admin.py">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#17#49#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="55" column="74" selection-start="3124" selection-end="3124" vertical-scroll-proportion="0.596519">
+              <folding>
+                <element signature="e#17#45#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -479,15 +490,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="54" selection-start="3325" selection-end="3325" vertical-scroll-proportion="1.3765823">
-          <folding>
-            <element signature="e#17#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/igreja_cadastro/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="92" selection-start="476" selection-end="476" vertical-scroll-proportion="0.23734178">
@@ -632,6 +634,15 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#17#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="74" selection-start="3124" selection-end="3124" vertical-scroll-proportion="0.596519">
+          <folding>
+            <element signature="e#17#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
