@@ -2,6 +2,7 @@
 
 from django import forms
 from django.utils.translation import ugettext as _
+from igreja_cadastro.cadastro_fieis.models import CadastroFieis
 
 SEXO_CHOICES = (
     (0, 'Masculino'),(1, 'Feminino')
@@ -11,45 +12,6 @@ ESTADO_CIVIL = (
     (0, 'Solteiro(a)'),(1, 'Casado(a)')
 )
 
-class CadastroForm(forms.Form):
-    nome = forms.CharField(label=_('Nome'))
-    sexo = forms.ChoiceField(choices=SEXO_CHOICES, label=_('Sexo'))
-    endereco = forms.CharField(label=_('Endereco'))
-    numero = forms.CharField(label=_('Numero'))
-    bairro = forms.CharField(label=_('Bairro'))
-    cidade = forms.CharField(label=_('Cidade'))
-    uf = forms.CharField(label=_('UF'))
-    cep = forms.CharField(label=_('CEP'))
-    estadoCivil = forms.ChoiceField(choices=ESTADO_CIVIL, label=_('Estado Civil'))
-    telefone = forms.CharField(label=_('Telefone'))
-    celular = forms.CharField(label=_('Celular'))
-    email = forms.EmailField(label=_('E-mail'))
-    dataNascimento = forms.DateField(label=_('Data de Nascimento'))
-    naturalDe = forms.CharField(label=_('Natural De?'))
-    rg = forms.CharField(label=_('RG'))
-    cpf = forms.CharField(label=_('CPF'))
-    tituloEleitor = forms.CharField(label=_('Titulo de Eleitor'))
-    dataCasamento = forms.DateField(label=_('Data de Casamento'))
-    conjuge = forms.CharField(label=_('Conjuge'))
-    crente = forms.CharField(label=_('Crente'))
-    dataConversaoDE = forms.DateField(label=_('Data Conversao'))
-    igrejaDE = forms.CharField(label=_('Igreja'))
-    orgpertenceDE = forms.CharField(label=_('Org a que Pertence'))
-    congregacaoDE = forms.CharField(label=_('Congregacao'))
-    dataBatismoDE = forms.CharField(label=_('Data de Batismo'))
-    igrejaDBatismoDE = forms.CharField(label=_('Igreja'))
-    classeEBDDE = forms.CharField(label=_('Classe da EBD'))
-    cargosefuncoesDE = forms.CharField(label=_('Cargos/Funcoes'))
-    recebidoCartaDataDE = forms.DateField(label=_('Recebido com carta? Data:'))
-    igrejaOrigemDE = forms.CharField(label=_('Igreja de Origem'))
-    dataSaida = forms.DateField(label=_('Data de Saida:'))
-    nomePai = forms.CharField(label=_('Nome do Pai:'))
-    nomeMae = forms.CharField(label=_('Nome da Mae:'))
-    area1PTS = forms.CharField(label=_('Area'))
-    funcao1PTS = forms.CharField(label=_('Funcao'))
-    area2PTS = forms.CharField(label=_('Area'))
-    funcao2PTS = forms.CharField(label=_('Funcao'))
-    area3PTS = forms.CharField(label=_('Area'))
-    funcao3PTS = forms.CharField(label=_('Funcao'))
-    area4PTS = forms.CharField(label=_('Area'))
-    funcao4PTS = forms.CharField(label=_('Funcao'))
+class CadastroForm(forms.ModelForm):
+    class Meta:
+        model = CadastroFieis

@@ -9,6 +9,7 @@ admin.autodiscover()
 urlpatterns = patterns('',
     url(r'^$', 'igreja_cadastro.core.views.homepage', name='homepage'),
     url(r'cadastro/$', 'igreja_cadastro.cadastro_fieis.views.cadastro',  name='cadastro'),
+    url(r'cadastro/(\d+)/$', 'igreja_cadastro.cadastro_fieis.views.detail', name='detail' ),
     # Examples:
     # url(r'^$', 'igreja_cadastro.views.home', name='home'),
     # url(r'^igreja_cadastro/', include('igreja_cadastro.foo.urls')),

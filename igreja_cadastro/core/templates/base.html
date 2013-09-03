@@ -12,6 +12,11 @@
 <link href="{{ STATIC_URL }}css/bootstrap.min.css" rel="stylesheet" media="screen">
 <link href="{{ STATIC_URL }}css/bootstrap-responsive.min.css" rel="stylesheet"  />
 <link href="{{ STATIC_URL }}css/bootstrap-sticky-footer.css" rel="stylesheet" />
+<link href="{{ STATIC_URL }}css/datepicker.css" rel="stylesheet" >
+<link href="{{ STATIC_URL }}css/bootstrap-formhelpers.css" rel="stylesheet" >
+<link href="{{ STATIC_URL }}css/bootstrap-formhelpers-countries.flags.css" rel="stylesheet" >
+<link href="{{ STATIC_URL }}../static/css/bootstrap-formhelpers-currencies.flags.css" rel="stylesheet" >
+
 
 <style>
     .invisivel{
@@ -22,13 +27,16 @@
         margin-top: 20px;
     }
 </style>
-<script>
 
+<script>
+    $('.datepicker').datepicker()
 </script>
 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.0/jquery.min.js"></script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/bootstrap-datepicker.js"></script>
 <script type="text/javascript" src="{{ STATIC_URL }}js/bootstrap-tab.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/bootstrap-formhelpers-datepicker.js"></script>
 
 
 </head>
