@@ -29,7 +29,7 @@ class CadastroFieis(models.Model):
     uf = models.CharField(_('UF'), max_length=2)
     cep = models.CharField(_('CEP'), max_length=10)
     estadoCivil = models.CharField(choices=ESTADO_CIVIL, max_length=20)
-    telefone = models.CharField(_('telefone'), max_length=10)
+    telefone = models.CharField(_('telefone'), max_length=12)
     celular = models.CharField(_('celular'), max_length=12)
     email = models.EmailField(_('e-mail'), max_length=100, unique=True)
     dataNascimento = models.DateField(_('data de nascimento'), max_length=12)
