@@ -169,9 +169,9 @@
       <label class="control-label">Data Nascimento</label>
       <div class="controls">
         {% if form.dataNascimento.value %}
-          <input id="id_dataNascimento" name="dataNascimento" placeholder="" class="input-prepend bfh-datepicker-toggle" required="" type="datetime" data-date-format="mm/dd/yyyy" style="width: 100px"value={{ form.dataNascimento.value }} />
+          <input id="id_dataNascimento" name="dataNascimento" placeholder="" class="date" required="" type="date" data-date-format="mm/dd/yyyy" style="width: 200px"value={{ form.dataNascimento.value }} />
         {% else %}
-          <input id="id_dataNascimento" name="dataNascimento" placeholder="" class="input-prepend bfh-datepicker-toggle" required="" type="datetime" data-date-format="mm/dd/yyyy" style="width: 100px" />
+          <input id="id_dataNascimento" name="dataNascimento" placeholder="" class="date" required="" type="date" data-date-format="mm/dd/yyyy" style="width: 200px" />
         {% endif %}
         {{ form.dataNascimento.errors }}
 
@@ -237,9 +237,9 @@
       <label class="control-label">Data Casamento</label>
       <div class="controls">
         {% if form.dataCasamento.value %}
-          <input id="id_dataCasamento" name="dataCasamento" placeholder="" class="input-xlarge" type="date" style="width: 100px" value={{ form.dataCasamento.value }} />
+          <input id="id_dataCasamento" name="dataCasamento" placeholder="" class="input-xlarge" type="date" style="width: 200px" value={{ form.dataCasamento.value }} />
         {% else %}
-          <input id="id_dataCasamento" name="dataCasamento" placeholder="" class="input-xlarge" type="date" style="width: 100px" />
+          <input id="id_dataCasamento" name="dataCasamento" placeholder="" class="input-xlarge" type="date" style="width: 200px" />
         {% endif %}
         {{ form.dataCasamento.errors }}
 
@@ -251,9 +251,9 @@
       <label class="control-label">Conjuge</label>
       <div class="controls">
         {% if form.conjuge.value %}
-          <input id="id_conjuge" name="conjuge" placeholder="" class="input-xlarge" type="text" style="width: 200px" value={{ form.conjuge.value }} />
+          <input id="id_conjuge" name="conjuge" placeholder="" class="input-xlarge" type="text" style="width: 600px" value={{ form.conjuge.value }} />
         {% else %}
-          <input id="id_conjuge" name="conjuge" placeholder="" class="input-xlarge" type="text" style="width: 200px" />
+          <input id="id_conjuge" name="conjuge" placeholder="" class="input-xlarge" type="text" style="width: 600px" />
         {% endif %}
         {{ form.conjuge.errors }}
 
@@ -264,13 +264,8 @@
     <div class="control-group" >
       <label class="control-label">É Crente?</label>
       <div class="controls">
-        {% if form.crente.value %}
-          <input id="id_crente" name="crente" placeholder="" class="input-xlarge" type="text" style="width: 200px" value={{ form.crente.value }} />
-        {% else %}
-          <input id="id_crente" name="crente" placeholder="" class="input-xlarge" type="text" style="width: 200px" />
-        {% endif %}
+        {{ form.crente }}
         {{ form.crente.errors }}
-
       </div>
     </div>
 

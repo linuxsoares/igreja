@@ -15,6 +15,11 @@ class CadastroFieis(models.Model):
         (u'2', u'Casado(a)'),
     )
 
+    CRENTE = (
+        (u'1', u'Sim'),
+        (u'2', u'Não'),
+    )
+
     nome = models.CharField(_('nome'), max_length=100)
     sexo = models.CharField(choices=SEXO, max_length=20)
     endereco = models.CharField(_('endereco'), max_length=255)
@@ -34,12 +39,12 @@ class CadastroFieis(models.Model):
     tituloEleitor = models.CharField(_('titulo de eleitor'), max_length=20)
     dataCasamento = models.DateField(_('data de casamento'), max_length=10, blank=True)
     conjuge = models.CharField(_('conjuge'), max_length=200, blank=True)
-    crente = models.CharField(_('crente'), max_length=3)
+    crente = models.CharField(choices=CRENTE, max_length=3)
     dataConversaoDE = models.DateField(_('data conversao'), max_length=10, blank=True)
     igrejaDE = models.CharField(_('igreja'), max_length=100, blank=True)
     orgpertenceDE = models.CharField(_('org a que pertence'), max_length=200, blank=True)
     congregacaoDE = models.CharField(_('congregacao'), max_length=200, blank=True)
-    dataBatismoDE = models.CharField(_('data de batismo'), max_length=10, blank=True)
+    dataBatismoDE = models.DateField(_('data de batismo'), max_length=10, blank=True)
     igrejaDBatismoDE = models.CharField(_('igreja'), max_length=150, blank=True)
     classeEBDDE = models.CharField(_('classe da ebd'), max_length=255, blank=True)
     cargosefuncoesDE = models.CharField(_('cargos/funcoes'), max_length=255, blank=True)
