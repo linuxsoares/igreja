@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c31abcc-4196-4dea-b8c2-ccacc02126f0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/migrations/0003_auto__chg_field_cadastrofieis_recebidoCartaDataDE.py" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/migrations/0002_auto__chg_field_cadastrofieis_telefone.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/models.py" afterPath="$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="igreja.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,7 +46,7 @@
       <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="55" selection-start="3379" selection-end="3379" vertical-scroll-proportion="0.65346533">
+            <state line="63" column="55" selection-start="3379" selection-end="3379" vertical-scroll-proportion="0.9752475">
               <folding>
                 <element signature="e#17#45#0" expanded="true" />
               </folding>
@@ -609,7 +606,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="55" selection-start="3379" selection-end="3379" vertical-scroll-proportion="0.65346533">
+        <state line="63" column="55" selection-start="3379" selection-end="3379" vertical-scroll-proportion="0.9752475">
           <folding>
             <element signature="e#17#45#0" expanded="true" />
           </folding>
