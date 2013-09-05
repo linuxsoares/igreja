@@ -10,12 +10,12 @@ class Migration(SchemaMigration):
     def forwards(self, orm):
 
         # Changing field 'CadastroFieis.tituloEleitor'
-        db.alter_column(u'cadastro_fieis_cadastrofieis', 'tituloEleitor', self.gf('django.db.models.fields.CharField')(max_length=25))
+        db.alter_column(u'cadastro_fieis_cadastrofieis', 'tituloEleitor', self.gf('django.db.models.fields.CharField')(max_length=11))
 
     def backwards(self, orm):
 
         # Changing field 'CadastroFieis.tituloEleitor'
-        db.alter_column(u'cadastro_fieis_cadastrofieis', 'tituloEleitor', self.gf('django.db.models.fields.CharField')(max_length=20))
+        db.alter_column(u'cadastro_fieis_cadastrofieis', 'tituloEleitor', self.gf('django.db.models.fields.CharField')(max_length=25))
 
     models = {
         u'cadastro_fieis.cadastrofieis': {
@@ -35,11 +35,11 @@ class Migration(SchemaMigration):
             'cpf': ('django.db.models.fields.CharField', [], {'unique': 'True', 'max_length': '11'}),
             'crente': ('django.db.models.fields.CharField', [], {'max_length': '3'}),
             'criado_em': ('django.db.models.fields.DateTimeField', [], {'auto_now_add': 'True', 'blank': 'True'}),
-            'dataBatismoDE': ('django.db.models.fields.DateField', [], {'default': 'None', 'max_length': '10', 'null': 'True', 'blank': 'True'}),
-            'dataCasamento': ('django.db.models.fields.DateField', [], {'default': 'None', 'max_length': '10', 'null': 'True', 'blank': 'True'}),
-            'dataConversaoDE': ('django.db.models.fields.DateField', [], {'default': 'None', 'max_length': '10', 'null': 'True', 'blank': 'True'}),
+            'dataBatismoDE': ('django.db.models.fields.DateField', [], {'null': 'True', 'blank': 'True'}),
+            'dataCasamento': ('django.db.models.fields.DateField', [], {'null': 'True', 'blank': 'True'}),
+            'dataConversaoDE': ('django.db.models.fields.DateField', [], {'null': 'True', 'blank': 'True'}),
             'dataNascimento': ('django.db.models.fields.DateField', [], {'max_length': '12'}),
-            'dataSaida': ('django.db.models.fields.DateField', [], {'default': 'None', 'max_length': '10', 'null': 'True', 'blank': 'True'}),
+            'dataSaida': ('django.db.models.fields.DateField', [], {'null': 'True', 'blank': 'True'}),
             'email': ('django.db.models.fields.EmailField', [], {'unique': 'True', 'max_length': '100'}),
             'endereco': ('django.db.models.fields.CharField', [], {'max_length': '255'}),
             'estadoCivil': ('django.db.models.fields.CharField', [], {'max_length': '20'}),
@@ -57,11 +57,11 @@ class Migration(SchemaMigration):
             'nomePai': ('django.db.models.fields.CharField', [], {'max_length': '100', 'blank': 'True'}),
             'numero': ('django.db.models.fields.CharField', [], {'max_length': '10'}),
             'orgpertenceDE': ('django.db.models.fields.CharField', [], {'max_length': '200', 'blank': 'True'}),
-            'recebidoCartaDataDE': ('django.db.models.fields.DateField', [], {'default': 'None', 'max_length': '10', 'blank': 'True'}),
+            'recebidoCartaDataDE': ('django.db.models.fields.DateField', [], {'null': 'True', 'blank': 'True'}),
             'rg': ('django.db.models.fields.CharField', [], {'max_length': '20', 'blank': 'True'}),
             'sexo': ('django.db.models.fields.CharField', [], {'max_length': '20'}),
             'telefone': ('django.db.models.fields.CharField', [], {'max_length': '12'}),
-            'tituloEleitor': ('django.db.models.fields.CharField', [], {'max_length': '25'}),
+            'tituloEleitor': ('django.db.models.fields.CharField', [], {'max_length': '11'}),
             'uf': ('django.db.models.fields.CharField', [], {'max_length': '2'})
         }
     }

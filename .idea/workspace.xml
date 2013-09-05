@@ -3,6 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="7c31abcc-4196-4dea-b8c2-ccacc02126f0" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/migrations/0002_auto__chg_field_cadastrofieis_telefone.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/migrations/0002_auto__chg_field_cadastrofieis_tituloEleitor.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/migrations/0003_auto__chg_field_cadastrofieis_recebidoCartaDataDE.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/migrations/0004_auto__chg_field_cadastrofieis_dataBatismoDE__chg_field_cadastrofieis_d.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/migrations/0005_initial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/migrations_bpk/0001_initial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/migrations_bpk/0002_auto__chg_field_cadastrofieis_dataBatismoDE__chg_field_cadastrofieis_d.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/migrations_bpk/0003_auto__chg_field_cadastrofieis_dataBatismoDE.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/migrations_bpk/0004_auto__chg_field_cadastrofieis_dataBatismoDE.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/migrations_bpk/__init__.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/migrations/0001_initial.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/models.py" afterPath="$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="igreja.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,10 +55,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="55" selection-start="3379" selection-end="3379" vertical-scroll-proportion="0.9752475">
+            <state line="38" column="74" selection-start="1437" selection-end="1437" vertical-scroll-proportion="-8.884615">
               <folding>
                 <element signature="e#17#45#0" expanded="true" />
               </folding>
@@ -54,19 +66,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="0002_auto__chg_field_cadastrofieis_tituloEleitor.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/migrations/0002_auto__chg_field_cadastrofieis_tituloEleitor.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="12" selection-start="2431" selection-end="2564" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cadastro_form.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="cadastro_form.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/templates/cadastro_fieis/cadastro_form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="173" column="112" selection-start="6820" selection-end="6820" vertical-scroll-proportion="0.0">
+            <state line="173" column="112" selection-start="6820" selection-end="6820" vertical-scroll-proportion="-1.0084034">
               <folding />
             </state>
           </provider>
@@ -214,28 +217,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="cadastro_fieis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="igreja" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="igreja" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="igreja_cadastro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cadastro_fieis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="migrations" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -521,13 +502,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/migrations/0002_auto__chg_field_cadastrofieis_tituloEleitor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="12" selection-start="2431" selection-end="2564" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/templates/cadastro_fieis/cadastro_form.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="173" column="112" selection-start="6820" selection-end="6820" vertical-scroll-proportion="0.0">
@@ -537,7 +511,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/templates/cadastro_fieis/cadastro_detalhe.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="22" selection-start="367" selection-end="367" vertical-scroll-proportion="-5.0" />
+        <state line="8" column="22" selection-start="367" selection-end="367" vertical-scroll-proportion="-5.0">
+          <folding>
+            <element signature="e#55#81#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/igreja_cadastro/core/templates/index.html">
@@ -557,7 +535,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="59" selection-start="845" selection-end="845" vertical-scroll-proportion="0.51724136" />
+        <state line="21" column="59" selection-start="845" selection-end="845" vertical-scroll-proportion="0.51724136">
+          <folding>
+            <element signature="e#17#52#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/igreja_cadastro/settings.py">
@@ -590,26 +572,19 @@
         <state line="16" column="29" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/templates/cadastro_fieis/cadastro_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="173" column="112" selection-start="6820" selection-end="6820" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/migrations/0002_auto__chg_field_cadastrofieis_tituloEleitor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="12" selection-start="2431" selection-end="2564" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="55" selection-start="3379" selection-end="3379" vertical-scroll-proportion="0.9752475">
+        <state line="38" column="74" selection-start="1437" selection-end="1437" vertical-scroll-proportion="-8.884615">
           <folding>
             <element signature="e#17#45#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/templates/cadastro_fieis/cadastro_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="173" column="112" selection-start="6820" selection-end="6820" vertical-scroll-proportion="-1.0084034">
+          <folding />
         </state>
       </provider>
     </entry>

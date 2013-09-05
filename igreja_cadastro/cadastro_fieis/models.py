@@ -36,7 +36,7 @@ class CadastroFieis(models.Model):
     naturalDe = models.CharField(_('natural de?'), max_length=150)
     rg = models.CharField(_('RG'), max_length=20, blank=True)
     cpf = models.CharField(_('CPF'), max_length=11, unique=True)
-    tituloEleitor = models.CharField(_('titulo de eleitor'), max_length=25)
+    tituloEleitor = models.CharField(_('titulo de eleitor'), max_length=11)
     dataCasamento = models.DateField(_('data de casamento'), blank=True, null=True)
     conjuge = models.CharField(_('conjuge'), max_length=200, blank=True)
     crente = models.CharField(choices=CRENTE, max_length=3)
