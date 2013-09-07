@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c31abcc-4196-4dea-b8c2-ccacc02126f0" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/migrations/0002_auto__chg_field_cadastrofieis_telefone.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/migrations/0003_auto__chg_field_cadastrofieis_recebidoCartaDataDE.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/migrations/0004_auto__chg_field_cadastrofieis_dataBatismoDE__chg_field_cadastrofieis_d.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/migrations/0005_initial.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/migrations_bpk/0001_initial.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/migrations_bpk/0002_auto__chg_field_cadastrofieis_dataBatismoDE__chg_field_cadastrofieis_d.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/migrations_bpk/0003_auto__chg_field_cadastrofieis_dataBatismoDE.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/migrations_bpk/0004_auto__chg_field_cadastrofieis_dataBatismoDE.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/migrations_bpk/__init__.py" afterPath="" />
-    </list>
+    <list default="true" id="7c31abcc-4196-4dea-b8c2-ccacc02126f0" name="Default" comment="" />
     <ignored path="igreja.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/settings.py" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1378186185622" ignored="false" />
@@ -20,7 +10,7 @@
     <file path="/index.html" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1377581623846" ignored="false" />
     <file path="/requirements.txt" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1377991380411" ignored="false" />
     <file path="/bootstrap-sticky-footer.css" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1377373801639" ignored="false" />
-    <file path="/Dummy.txt" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1378358178742" ignored="false" />
+    <file path="/Dummy.txt" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1378531550238" ignored="false" />
     <file path="/tests.py" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1377579921023" ignored="false" />
     <file path="/cadastro_form.html" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1378269342743" ignored="false" />
     <file path="/forms.py" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1378183718545" ignored="false" />
@@ -54,7 +44,7 @@
       <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="74" selection-start="1437" selection-end="1437" vertical-scroll-proportion="0.38118812">
+            <state line="38" column="74" selection-start="1437" selection-end="1437" vertical-scroll-proportion="0.1107595">
               <folding>
                 <element signature="e#17#45#0" expanded="true" />
               </folding>
@@ -65,7 +55,7 @@
       <file leaf-file-name="cadastro_form.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/templates/cadastro_fieis/cadastro_form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="173" column="112" selection-start="6820" selection-end="6820" vertical-scroll-proportion="25.0">
+            <state line="173" column="112" selection-start="6820" selection-end="6820" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -246,13 +236,13 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -310,29 +300,6 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="igreja" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
-      <method />
-    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -354,6 +321,29 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="igreja" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -438,13 +428,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="22" width="1276" height="778" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27642277" sideWeight="0.67121214" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2813008" sideWeight="0.67121214" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -520,6 +510,22 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="74" selection-start="1437" selection-end="1437" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#17#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/templates/cadastro_fieis/cadastro_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="173" column="112" selection-start="6820" selection-end="6820" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/templates/cadastro_fieis/cadastro_form.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="173" column="112" selection-start="6820" selection-end="6820" vertical-scroll-proportion="0.0">
@@ -529,11 +535,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/templates/cadastro_fieis/cadastro_detalhe.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="22" selection-start="367" selection-end="367" vertical-scroll-proportion="-5.0">
-          <folding>
-            <element signature="e#55#81#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="8" column="22" selection-start="367" selection-end="367" vertical-scroll-proportion="-5.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/igreja_cadastro/core/templates/index.html">
@@ -553,11 +555,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="59" selection-start="845" selection-end="845" vertical-scroll-proportion="0.51724136">
-          <folding>
-            <element signature="e#17#52#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="21" column="59" selection-start="845" selection-end="845" vertical-scroll-proportion="0.51724136" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/igreja_cadastro/settings.py">
@@ -592,14 +590,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/templates/cadastro_fieis/cadastro_form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="173" column="112" selection-start="6820" selection-end="6820" vertical-scroll-proportion="25.0">
+        <state line="173" column="112" selection-start="6820" selection-end="6820" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="74" selection-start="1437" selection-end="1437" vertical-scroll-proportion="0.38118812">
+        <state line="38" column="74" selection-start="1437" selection-end="1437" vertical-scroll-proportion="0.1107595">
           <folding>
             <element signature="e#17#45#0" expanded="true" />
           </folding>
