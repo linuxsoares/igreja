@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c31abcc-4196-4dea-b8c2-ccacc02126f0" name="Default" comment="" />
+    <list default="true" id="7c31abcc-4196-4dea-b8c2-ccacc02126f0" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/igreja_cadastro/core/static/img/logo.png" afterPath="$PROJECT_DIR$/igreja_cadastro/core/static/img/logo_01.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/igreja_cadastro/core/static/img/logo.png" afterPath="$PROJECT_DIR$/igreja_cadastro/core/static/img/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/igreja_cadastro/core/templates/base.html" afterPath="$PROJECT_DIR$/igreja_cadastro/core/templates/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="igreja.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/settings.py" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1378186185622" ignored="false" />
@@ -14,7 +19,7 @@
     <file path="/tests.py" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1377579921023" ignored="false" />
     <file path="/cadastro_form.html" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1378269342743" ignored="false" />
     <file path="/forms.py" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1378183718545" ignored="false" />
-    <file path="/base.html" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1378188839843" ignored="false" />
+    <file path="/base.html" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1378538737562" ignored="false" />
     <file path="/models.py" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1378276141695" ignored="false" />
     <file path="/admin.py" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1377983368534" ignored="false" />
     <file path="/__init__.py" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1378181512405" ignored="false" />
@@ -41,13 +46,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="74" selection-start="1437" selection-end="1437" vertical-scroll-proportion="0.1107595">
+            <state line="38" column="74" selection-start="1437" selection-end="1437" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#17#45#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/igreja_cadastro/core/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding>
+                <marker date="1377581642000" expanded="false" signature="95:113" placeholder="..." />
+                <marker date="1377581642000" expanded="true" signature="114:436" placeholder="..." />
+                <marker date="1377581642000" expanded="true" signature="505:1106" placeholder="..." />
+                <marker date="1377581642000" expanded="true" signature="533:1099" placeholder="..." />
+                <marker date="1377581642000" expanded="false" signature="816:830" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/igreja_cadastro/core/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="58" column="5" selection-start="2131" selection-end="2131" vertical-scroll-proportion="0.6792763">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -92,9 +121,9 @@
         <option value="$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/views.py" />
         <option value="$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/templates/cadastro_fieis/cadastro_detalhe.html" />
         <option value="$PROJECT_DIR$/igreja_cadastro/settings.py" />
-        <option value="$PROJECT_DIR$/igreja_cadastro/core/templates/base.html" />
         <option value="$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/templates/cadastro_fieis/cadastro_form.html" />
         <option value="$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/models.py" />
+        <option value="$PROJECT_DIR$/igreja_cadastro/core/templates/base.html" />
       </list>
     </option>
   </component>
@@ -176,7 +205,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cadastro_fieis" />
+              <option name="myItemId" value="core" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -194,15 +223,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cadastro_fieis" />
+              <option name="myItemId" value="core" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cadastro_fieis" />
+              <option name="myItemId" value="igreja" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="igreja" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="igreja_cadastro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -220,11 +267,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cadastro_fieis" />
+              <option name="myItemId" value="core" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="migrations" />
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -254,6 +305,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/igreja_cadastro/core/static/img" />
       <recent name="$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/migrations" />
       <recent name="$PROJECT_DIR$/igreja_cadastro/core/static/css" />
       <recent name="$PROJECT_DIR$/igreja_cadastro/core/static/js" />
@@ -428,13 +480,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="22" width="1276" height="778" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2813008" sideWeight="0.67121214" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2813008" sideWeight="0.67121214" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -535,12 +587,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/templates/cadastro_fieis/cadastro_detalhe.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="22" selection-start="367" selection-end="367" vertical-scroll-proportion="-5.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/igreja_cadastro/core/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="8" column="22" selection-start="367" selection-end="367" vertical-scroll-proportion="-5.0">
+          <folding>
+            <element signature="e#55#81#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/igreja_cadastro/core/static/js/bootstrap-datepicker.js">
@@ -555,7 +606,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="59" selection-start="845" selection-end="845" vertical-scroll-proportion="0.51724136" />
+        <state line="21" column="59" selection-start="845" selection-end="845" vertical-scroll-proportion="0.51724136">
+          <folding>
+            <element signature="e#17#52#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/igreja_cadastro/settings.py">
@@ -571,11 +626,6 @@
     <entry file="file://$PROJECT_DIR$/igreja_cadastro/core/static/css/bootstrap-formhelpers-countries.flags.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/igreja_cadastro/core/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="104" selection-start="1014" selection-end="1014" vertical-scroll-proportion="0.39473686" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/admin.py">
@@ -597,10 +647,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="74" selection-start="1437" selection-end="1437" vertical-scroll-proportion="0.1107595">
+        <state line="38" column="74" selection-start="1437" selection-end="1437" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#17#45#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/igreja_cadastro/core/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+          <folding>
+            <marker date="1377581642000" expanded="false" signature="95:113" placeholder="..." />
+            <marker date="1377581642000" expanded="true" signature="114:436" placeholder="..." />
+            <marker date="1377581642000" expanded="true" signature="505:1106" placeholder="..." />
+            <marker date="1377581642000" expanded="true" signature="533:1099" placeholder="..." />
+            <marker date="1377581642000" expanded="false" signature="816:830" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/igreja_cadastro/core/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="5" selection-start="2131" selection-end="2131" vertical-scroll-proportion="0.6792763">
+          <folding />
         </state>
       </provider>
     </entry>
