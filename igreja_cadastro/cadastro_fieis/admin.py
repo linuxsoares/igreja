@@ -1,6 +1,7 @@
 # coding: utf-8
 
 from django.contrib import admin
+from django.contrib.sites.models import Site
 from django.utils.datetime_safe import datetime
 from django.utils.translation import ugettext as _
 from igreja_cadastro.cadastro_fieis.models import CadastroFieis
@@ -18,3 +19,4 @@ class CadastroFieisAdmin(admin.ModelAdmin):
     cadastrado_hoje.boolean = True
 
 admin.site.register(CadastroFieis, CadastroFieisAdmin)
+admin.site.unregister(Site)
