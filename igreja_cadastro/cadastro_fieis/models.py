@@ -64,6 +64,9 @@ class CadastroFieis(models.Model):
     criado_em = models.DateTimeField(auto_now_add=True)
 
     class Meta:
+        app_label = 'Cadastro'
+        verbose_name = 'Cadastro de Membro'
+        db_table = 'cadastro_fieis_cadastrofieis'
         ordering = ['criado_em']
 
     def __unicode__(self):
