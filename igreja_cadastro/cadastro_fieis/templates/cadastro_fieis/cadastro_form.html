@@ -16,7 +16,7 @@
             {% if form.nome.value %}
                 <input id="id_nome" type="text" class="input-xlarge" name="nome" required="" maxlength="100" style="width: 600px" value={{ form.nome.value }} />
             {% else %}
-                <input id="id_nome" type="text" class="input-xlarge" name="nome" required="" maxlength="100" style="width: 600px"/>
+                <input id="id_nome" type="text" class="input-xlarge" name="nome" required="" pattern="[^0-9]+[a-zA-Z]" maxlength="100" style="width: 600px"/>
             {% endif %}
             {{ form.nome.errors }}
       </div>
@@ -40,7 +40,7 @@
         {% if form.endereco.value %}
             <input id="id_endereco" name="endereco" placeholder="" class="input-xlarge" required="" type="text" style="width: 780px" value={{ form.endereco.value }} />
         {% else %}
-            <input id="id_endereco" name="endereco" placeholder="" class="input-xlarge" required="" type="text" style="width: 780px" />
+            <input id="id_endereco" name="endereco" placeholder="" class="input-xlarge" required="" pattern="[^0-9]+[a-zA-Z]" type="text" style="width: 780px" />
         {% endif %}
         {{ form.endereco.errors }}
       </div>
@@ -53,7 +53,7 @@
         {% if form.numero.value %}
           <input id="id_numero" name="numero" placeholder="" class="input-xlarge" required="" type="text" style="width: 50px" value={{ form.numero.value }} />
         {% else %}
-          <input id="id_numero" name="numero" placeholder="" class="input-xlarge" required="" type="text" style="width: 50px"/>
+          <input id="id_numero" name="numero" placeholder="" class="input-xlarge" required="" pattern="[^a-zA-Z]*[0-9]" type="text" style="width: 50px"/>
         {% endif %}
         {{ form.numero.errors }}
       </div>
@@ -66,7 +66,7 @@
           {% if form.bairro.value %}
             <input id="id_bairro" name="bairro" placeholder="" class="input-xlarge" required="" type="text" style="width: 200px" value={{ form.bairro.value }} />
           {% else %}
-            <input id="id_bairro" name="bairro" placeholder="" class="input-xlarge" required="" type="text" style="width: 200px" />
+            <input id="id_bairro" name="bairro" placeholder="" class="input-xlarge" required="" pattern="[^0-9]+[a-zA-Z]" type="text" style="width: 200px" />
           {% endif %}
           {{ form.bairro.errors }}
       </div>
@@ -79,7 +79,7 @@
         {% if form.cidade.value %}
           <input id="id_cidade" name="cidade" placeholder="" class="input-xlarge" required="" type="text" style="width: 200px" value={{ form.cidade.value }} />
         {% else %}
-          <input id="id_cidade" name="cidade" placeholder="" class="input-xlarge" required="" type="text" style="width: 200px" />
+          <input id="id_cidade" name="cidade" placeholder="" class="input-xlarge" required="" pattern="[^0-9]+[a-zA-Z]" type="text" style="width: 200px" />
         {% endif %}
 
       </div>
@@ -92,7 +92,7 @@
         {% if form.uf.value %}
           <input id="id_uf" name="uf" placeholder="" class="input-xlarge" required="" type="text" style="width: 60px" value={{ form.uf.value }} />
         {% else %}
-          <input id="id_uf" name="uf" placeholder="" class="input-xlarge" required="" type="text" style="width: 60px" />
+          <input id="id_uf" name="uf" placeholder="" class="input-xlarge" required="" pattern="[^0-9][A-Z]{1}" type="text" style="width: 60px" />
         {% endif %}
         {{ form.uf.errors }}
 
