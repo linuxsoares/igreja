@@ -140,7 +140,7 @@ INSTALLED_APPS = (
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
     'igreja_cadastro.core',
-    'igreja_cadastro.cadastro_fieis',
+        'igreja_cadastro.cadastro_fieis',
 )
 
 # A sample logging configuration. The only tangible logging

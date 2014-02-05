@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 {% block content %}
 
-<form class="form-horizontal well" action="." method="POST" >
+<form class="form-horizontal well" action="." method="POST" enctype="multipart/form-data">
     {% csrf_token %}
 
     <fieldset>
@@ -19,6 +19,18 @@
                 <input id="id_nome" type="text" class="input-xlarge" name="nome" required="" pattern="[^0-9]+[a-zA-Z]" maxlength="100" style="width: 600px"/>
             {% endif %}
             {{ form.nome.errors }}
+      </div>
+    </div>
+
+    <div class="control-group" >
+      <label class="control-label">Foto</label>
+      <div class="controls">
+            {% if form.foto.value %}
+                <input type = "submit" value= "Adicione Foto..." />
+            {% else %}
+                <input type = "submit" value= "Adicione Foto..." />
+            {% endif %}
+            {{ form.foto.errors }}
       </div>
     </div>
 
