@@ -15,7 +15,7 @@ class Migration(SchemaMigration):
     def backwards(self, orm):
         # Adding model 'CadastroFieis'
         db.create_table(u'cadastro_fieis_cadastrofieis', (
-            ('tituloEleitor', self.gf('django.db.models.fields.CharField')(max_length=11)),
+            ('tituloEleitor', self.gf('django.db.models.fields.CharField')(max_length=25)),
             ('funcao3PTS', self.gf('django.db.models.fields.CharField')(max_length=200, blank=True)),
             ('area1PTS', self.gf('django.db.models.fields.CharField')(max_length=200, blank=True)),
             ('celular', self.gf('django.db.models.fields.CharField')(max_length=12)),
