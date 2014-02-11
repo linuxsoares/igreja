@@ -8,58 +8,23 @@ from django.db import models
 class Migration(SchemaMigration):
 
     def forwards(self, orm):
-        # Adding model 'CadastroFieis'
-        db.create_table(u'cadastro_fieis_cadastrofieis', (
-            (u'id', self.gf('django.db.models.fields.AutoField')(primary_key=True)),
-            ('nome', self.gf('django.db.models.fields.CharField')(max_length=100)),
-            ('sexo', self.gf('django.db.models.fields.CharField')(max_length=20)),
-            ('endereco', self.gf('django.db.models.fields.CharField')(max_length=255)),
-            ('numero', self.gf('django.db.models.fields.CharField')(max_length=10)),
-            ('bairro', self.gf('django.db.models.fields.CharField')(max_length=100)),
-            ('cidade', self.gf('django.db.models.fields.CharField')(max_length=150)),
-            ('uf', self.gf('django.db.models.fields.CharField')(max_length=2)),
-            ('cep', self.gf('django.db.models.fields.CharField')(max_length=10)),
-            ('estadoCivil', self.gf('django.db.models.fields.CharField')(max_length=20)),
-            ('telefone', self.gf('django.db.models.fields.CharField')(max_length=12)),
-            ('celular', self.gf('django.db.models.fields.CharField')(max_length=12)),
-            ('email', self.gf('django.db.models.fields.EmailField')(unique=True, max_length=100)),
-            ('dataNascimento', self.gf('django.db.models.fields.DateField')(max_length=12)),
-            ('naturalDe', self.gf('django.db.models.fields.CharField')(max_length=150)),
-            ('rg', self.gf('django.db.models.fields.CharField')(max_length=20, blank=True)),
-            ('cpf', self.gf('django.db.models.fields.CharField')(unique=True, max_length=11)),
-            ('tituloEleitor', self.gf('django.db.models.fields.CharField')(max_length=25)),
-            ('dataCasamento', self.gf('django.db.models.fields.DateField')(null=True, blank=True)),
-            ('conjuge', self.gf('django.db.models.fields.CharField')(max_length=200, blank=True)),
-            ('crente', self.gf('django.db.models.fields.CharField')(max_length=3)),
-            ('dataConversaoDE', self.gf('django.db.models.fields.DateField')(null=True, blank=True)),
-            ('igrejaDE', self.gf('django.db.models.fields.CharField')(max_length=100, blank=True)),
-            ('orgpertenceDE', self.gf('django.db.models.fields.CharField')(max_length=200, blank=True)),
-            ('congregacaoDE', self.gf('django.db.models.fields.CharField')(max_length=200, blank=True)),
-            ('dataBatismoDE', self.gf('django.db.models.fields.DateField')(null=True, blank=True)),
-            ('igrejaDBatismoDE', self.gf('django.db.models.fields.CharField')(max_length=150, blank=True)),
-            ('classeEBDDE', self.gf('django.db.models.fields.CharField')(max_length=255, blank=True)),
-            ('cargosefuncoesDE', self.gf('django.db.models.fields.CharField')(max_length=255, blank=True)),
-            ('recebidoCartaDataDE', self.gf('django.db.models.fields.DateField')(null=True, blank=True)),
-            ('igrejaOrigemDE', self.gf('django.db.models.fields.CharField')(max_length=255, blank=True)),
-            ('dataSaida', self.gf('django.db.models.fields.DateField')(null=True, blank=True)),
-            ('nomePai', self.gf('django.db.models.fields.CharField')(max_length=100, blank=True)),
-            ('nomeMae', self.gf('django.db.models.fields.CharField')(max_length=100, blank=True)),
-            ('area1PTS', self.gf('django.db.models.fields.CharField')(max_length=200, blank=True)),
-            ('funcao1PTS', self.gf('django.db.models.fields.CharField')(max_length=200, blank=True)),
-            ('area2PTS', self.gf('django.db.models.fields.CharField')(max_length=200, blank=True)),
-            ('funcao2PTS', self.gf('django.db.models.fields.CharField')(max_length=200, blank=True)),
-            ('area3PTS', self.gf('django.db.models.fields.CharField')(max_length=200, blank=True)),
-            ('funcao3PTS', self.gf('django.db.models.fields.CharField')(max_length=200, blank=True)),
-            ('area4PTS', self.gf('django.db.models.fields.CharField')(max_length=200, blank=True)),
-            ('funcao4PTS', self.gf('django.db.models.fields.CharField')(max_length=200, blank=True)),
-            ('criado_em', self.gf('django.db.models.fields.DateTimeField')(auto_now_add=True, blank=True)),
-        ))
-        db.send_create_signal(u'cadastro_fieis', ['CadastroFieis'])
+        # Deleting field 'CadastroFieis.fotoFiel'
+        db.delete_column(u'cadastro_fieis_cadastrofieis', 'fotoFiel')
+
+        # Adding field 'CadastroFieis.foto'
+        db.add_column('cadastro_fieis_cadastrofieis', 'foto',
+                      self.gf('django.db.models.fields.files.ImageField')(max_length=100, null=True, blank=True),
+                      keep_default=False)
 
 
     def backwards(self, orm):
-        # Deleting model 'CadastroFieis'
-        db.delete_table(u'cadastro_fieis_cadastrofieis')
+        # Adding field 'CadastroFieis.fotoFiel'
+        db.add_column(u'cadastro_fieis_cadastrofieis', 'fotoFiel',
+                      self.gf('django.db.models.fields.files.ImageField')(max_length=100, null=True, blank=True),
+                      keep_default=False)
+
+        # Deleting field 'CadastroFieis.foto'
+        db.delete_column('cadastro_fieis_cadastrofieis', 'foto')
 
 
     models = {
@@ -88,6 +53,7 @@ class Migration(SchemaMigration):
             'email': ('django.db.models.fields.EmailField', [], {'unique': 'True', 'max_length': '100'}),
             'endereco': ('django.db.models.fields.CharField', [], {'max_length': '255'}),
             'estadoCivil': ('django.db.models.fields.CharField', [], {'max_length': '20'}),
+            'foto': ('django.db.models.fields.files.ImageField', [], {'max_length': '100', 'null': 'True', 'blank': 'True'}),
             'funcao1PTS': ('django.db.models.fields.CharField', [], {'max_length': '200', 'blank': 'True'}),
             'funcao2PTS': ('django.db.models.fields.CharField', [], {'max_length': '200', 'blank': 'True'}),
             'funcao3PTS': ('django.db.models.fields.CharField', [], {'max_length': '200', 'blank': 'True'}),
@@ -106,7 +72,7 @@ class Migration(SchemaMigration):
             'rg': ('django.db.models.fields.CharField', [], {'max_length': '20', 'blank': 'True'}),
             'sexo': ('django.db.models.fields.CharField', [], {'max_length': '20'}),
             'telefone': ('django.db.models.fields.CharField', [], {'max_length': '12'}),
-            'tituloEleitor': ('django.db.models.fields.CharField', [], {'max_length': '25'}),
+            'tituloEleitor': ('django.db.models.fields.CharField', [], {'max_length': '11'}),
             'uf': ('django.db.models.fields.CharField', [], {'max_length': '2'})
         }
     }
