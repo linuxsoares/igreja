@@ -26,9 +26,9 @@
       <label class="control-label">Foto</label>
       <div class="controls">
             {% if form.foto_fiel.value %}
-                <input type = "submit" value= "Adicione Foto..." />
+                <input type = "file" value= {{ form.foto.value }} />
             {% else %}
-                <input type = "submit" value= "Adicione Foto..." />
+                <input type = "file" value= "Adicione Foto..." />
             {% endif %}
             {{ form.foto.errors }}
       </div>

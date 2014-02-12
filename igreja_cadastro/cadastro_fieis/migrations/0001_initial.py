@@ -53,7 +53,7 @@ class Migration(SchemaMigration):
             ('area4PTS', self.gf('django.db.models.fields.CharField')(max_length=200, blank=True)),
             ('funcao4PTS', self.gf('django.db.models.fields.CharField')(max_length=200, blank=True)),
             ('criado_em', self.gf('django.db.models.fields.DateTimeField')(auto_now_add=True, blank=True)),
-            ('fotoFiel', self.gf('django.db.models.fields.files.ImageField')(max_length=100, null=True, blank=True)),
+            ('foto', self.gf('django.db.models.fields.files.FileField')(max_length=100, null=True, blank=True)),
         ))
         db.send_create_signal(u'cadastro_fieis', ['CadastroFieis'])
 
@@ -89,7 +89,7 @@ class Migration(SchemaMigration):
             'email': ('django.db.models.fields.EmailField', [], {'unique': 'True', 'max_length': '100'}),
             'endereco': ('django.db.models.fields.CharField', [], {'max_length': '255'}),
             'estadoCivil': ('django.db.models.fields.CharField', [], {'max_length': '20'}),
-            'fotoFiel': ('django.db.models.fields.files.ImageField', [], {'max_length': '100', 'null': 'True', 'blank': 'True'}),
+            'foto': ('django.db.models.fields.files.FileField', [], {'max_length': '100', 'null': 'True', 'blank': 'True'}),
             'funcao1PTS': ('django.db.models.fields.CharField', [], {'max_length': '200', 'blank': 'True'}),
             'funcao2PTS': ('django.db.models.fields.CharField', [], {'max_length': '200', 'blank': 'True'}),
             'funcao3PTS': ('django.db.models.fields.CharField', [], {'max_length': '200', 'blank': 'True'}),

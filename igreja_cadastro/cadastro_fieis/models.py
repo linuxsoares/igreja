@@ -62,7 +62,7 @@ class CadastroFieis(models.Model):
     area4PTS = models.CharField(_('area'), max_length=200, blank=True)
     funcao4PTS = models.CharField(_('funcao'), max_length=200, blank=True)
     criado_em = models.DateTimeField(auto_now_add=True)
-    foto = models.ImageField(_('foto'), upload_to='images/', null=True, blank=True)
+    foto = models.FileField(_('foto'), upload_to='images/', null=True, blank=True)
 
     class Meta:
         verbose_name = 'Cadastro de Membro'
