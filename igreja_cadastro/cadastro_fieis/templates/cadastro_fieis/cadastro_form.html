@@ -25,7 +25,12 @@
     <div class="control-group" >
       <label class="control-label">Foto</label>
       <div class="controls">
+          {% if form.foto.value %}
+            <input id="id_foto" name="foto" type="file" value="{{ form.foto.value }}" />
+          {% else %}
             <input id="id_foto" name="foto" type="file" value="Adicione Foto..." />
+          {% endif %}
+          {{ form.foto.errors }}
       </div>
     </div>
 

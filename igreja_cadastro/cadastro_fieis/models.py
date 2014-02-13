@@ -2,6 +2,8 @@
 
 from django.db import models
 from django.utils.translation import ugettext as _
+from igreja_cadastro import settings
+
 
 class CadastroFieis(models.Model):
 
@@ -63,6 +65,11 @@ class CadastroFieis(models.Model):
     funcao4PTS = models.CharField(_('funcao'), max_length=200, blank=True)
     criado_em = models.DateTimeField(auto_now_add=True)
     foto = models.FileField(_('foto'), upload_to='images/', null=True, blank=True)
+
+    def image_tag(self):
+        return u'<img src="%s" />' % self.foto
+    image_tag.short_description = 'Imagem'
+    image_tag.allow_tags = True
 
     class Meta:
         verbose_name = 'Cadastro de Membro'

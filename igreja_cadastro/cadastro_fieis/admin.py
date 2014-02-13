@@ -11,6 +11,7 @@ class CadastroFieisAdmin(admin.ModelAdmin):
     date_hierarchy = 'criado_em'
     search_fields = ('nome', 'email', 'cpf', 'criado_em')
     list_filter = ['criado_em']
+    readonly_fields = ('image_tag',)
 
     def cadastrado_hoje(self, obj):
         return obj.criado_em.date() == datetime.today().date()
