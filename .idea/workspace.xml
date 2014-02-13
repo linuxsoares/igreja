@@ -3,11 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="7c31abcc-4196-4dea-b8c2-ccacc02126f0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/igreja_cadastro/settings.py" afterPath="$PROJECT_DIR$/igreja_cadastro/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="igreja.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/settings.py" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1392076997917" ignored="false" />
+    <file path="/settings.py" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1392334905583" ignored="false" />
     <file path="/urls.py" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1392253843685" ignored="false" />
     <file path="/views.py" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1392250247423" ignored="false" />
     <file path="/index.html" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1378964564713" ignored="false" />
@@ -86,7 +85,7 @@
       <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/igreja_cadastro/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="0" selection-start="2805" selection-end="2805" vertical-scroll-proportion="0.3653846">
+            <state line="82" column="23" selection-start="2804" selection-end="2804" vertical-scroll-proportion="1.4134616">
               <folding>
                 <element signature="e#47#71#0" expanded="true" />
               </folding>
@@ -635,7 +634,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/igreja_cadastro/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="0" selection-start="2805" selection-end="2805" vertical-scroll-proportion="0.3653846">
+        <state line="82" column="23" selection-start="2804" selection-end="2804" vertical-scroll-proportion="1.4134616">
           <folding>
             <element signature="e#47#71#0" expanded="true" />
           </folding>
