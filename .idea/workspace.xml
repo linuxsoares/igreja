@@ -3,12 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="7c31abcc-4196-4dea-b8c2-ccacc02126f0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/igreja_cadastro/settings.py" afterPath="$PROJECT_DIR$/igreja_cadastro/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/igreja_cadastro/urls.py" afterPath="$PROJECT_DIR$/igreja_cadastro/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="igreja.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/settings.py" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1392337444313" ignored="false" />
+    <file path="/settings.py" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1392338239374" ignored="false" />
     <file path="/urls.py" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1392337596721" ignored="false" />
     <file path="/views.py" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1392250247423" ignored="false" />
     <file path="/index.html" changelist="7c31abcc-4196-4dea-b8c2-ccacc02126f0" time="1378964564713" ignored="false" />
@@ -84,10 +82,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/igreja_cadastro/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="22" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0">
+            <state line="91" column="37" selection-start="3151" selection-end="3151" vertical-scroll-proportion="0.63461536">
               <folding>
                 <element signature="e#47#71#0" expanded="true" />
               </folding>
@@ -113,10 +111,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/igreja_cadastro/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="67" selection-start="238" selection-end="238" vertical-scroll-proportion="0.115384616">
+            <state line="5" column="67" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -163,8 +161,8 @@
         <option value="$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/templates/cadastro_fieis/cadastro_form.html" />
         <option value="$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/admin.py" />
         <option value="$PROJECT_DIR$/igreja_cadastro/cadastro_fieis/models.py" />
-        <option value="$PROJECT_DIR$/igreja_cadastro/settings.py" />
         <option value="$PROJECT_DIR$/igreja_cadastro/urls.py" />
+        <option value="$PROJECT_DIR$/igreja_cadastro/settings.py" />
       </list>
     </option>
   </component>
@@ -631,19 +629,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/igreja_cadastro/settings.py">
+    <entry file="file://$PROJECT_DIR$/igreja_cadastro/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="22" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#47#71#0" expanded="true" />
-          </folding>
+        <state line="5" column="67" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/igreja_cadastro/urls.py">
+    <entry file="file://$PROJECT_DIR$/igreja_cadastro/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="67" selection-start="238" selection-end="238" vertical-scroll-proportion="0.115384616">
-          <folding />
+        <state line="91" column="37" selection-start="3151" selection-end="3151" vertical-scroll-proportion="0.63461536">
+          <folding>
+            <element signature="e#47#71#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
