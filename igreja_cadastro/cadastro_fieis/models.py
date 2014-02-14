@@ -67,7 +67,7 @@ class CadastroFieis(models.Model):
     foto = models.FileField(_('foto'), upload_to='images/', null=True, blank=True)
 
     def image_tag(self):
-        return '<img src="%s" />' % self.foto
+        return u'<img src="%s" />' % self.foto
     image_tag.short_description = 'Imagem'
     image_tag.allow_tags = True
 
