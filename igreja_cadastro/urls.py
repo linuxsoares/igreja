@@ -3,6 +3,7 @@ from django.conf import settings
 
 # Uncomment the next two lines to enable the admin:
 from django.contrib import admin
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 admin.autodiscover()
 
@@ -27,3 +28,5 @@ urlpatterns += patterns('',
         'document_root': settings.STATIC_ROOT
     }),
 )
+
+urlpatterns += staticfiles_urlpatterns()

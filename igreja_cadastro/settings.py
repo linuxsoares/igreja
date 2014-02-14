@@ -1,7 +1,6 @@
 # Django settings for igreja_cadastro project.
 from unipath import Path
 import dj_database_url
-import os
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
@@ -82,14 +81,11 @@ STATIC_ROOT = PROJECT_DIR.child('static')
 # Example: "http://example.com/static/", "http://static.example.com/"
 STATIC_URL = '/static/'
 
-RUTA_PROYECTO = os.path.dirname(os.path.abspath(__file__))
-
 # Additional locations of static files
 STATICFILES_DIRS = (
     # Put strings here, like "/home/html/static" or "C:/www/django/static".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
-    os.path.join(RUTA_PROYECTO,'static'),
 )
 
 # List of finder classes that know how to find static files in
