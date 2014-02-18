@@ -1,4 +1,5 @@
 # coding: utf-8
+from cloudinary.models import CloudinaryField
 
 from django.db import models
 from django.utils.translation import ugettext as _
@@ -64,10 +65,15 @@ class CadastroFieis(models.Model):
     area4PTS = models.CharField(_('area'), max_length=200, blank=True)
     funcao4PTS = models.CharField(_('funcao'), max_length=200, blank=True)
     criado_em = models.DateTimeField(auto_now_add=True)
-    foto = models.FileField(_('foto'), upload_to='images/', null=True, blank=True)
+    foto = CloudinaryField(_('foto'))
 
     def image_tag(self):
-        return u'<img src="%s" width="180px" height="180px"/>' % self.foto
+        try:
+            return u'<img src="http://res.cloudinary.com/autopass/image/upload/v1392687577/%s" width="180px" height="180px"/>' % self.foto.public_id
+        except AttributeError:
+            public_id = ''
+            return "Photo <%s:%s>" % (self.title, public_id)
+
     image_tag.short_description = 'Imagem'
     image_tag.allow_tags = True
 
