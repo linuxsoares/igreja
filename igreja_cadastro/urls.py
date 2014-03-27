@@ -9,6 +9,8 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
     url(r'^$', 'igreja_cadastro.core.views.homepage', name='homepage'),
+    url(r'institucional/$', 'igreja_cadastro.core.views.institucional', name='institucional'),
+    url(r'campanha/$', 'igreja_cadastro.core.views.campanha', name='campanha'),
     url(r'cadastro/$', 'igreja_cadastro.cadastro_fieis.views.cadastro',  name='cadastro'),
     url(r'cadastro/(\d+)/$', 'igreja_cadastro.cadastro_fieis.views.detail', name='detail' ),
     url(r'images/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.MEDIA_ROOT}),
