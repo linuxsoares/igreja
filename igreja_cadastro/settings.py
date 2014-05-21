@@ -102,8 +102,8 @@ STATICFILES_DIRS = (
 # List of finder classes that know how to find static files in
 # various locations.
 STATICFILES_FINDERS = (
-    'django.contrib.staticfiles.finders.FileSystemFinder',
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+    'django.contrib.staticfiles.finders.FileSystemFinder',
 #    'django.contrib.staticfiles.finders.DefaultStorageFinder',
 )
 
@@ -127,6 +127,8 @@ MIDDLEWARE_CLASSES = (
     # 'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
+GRAPPELLI_ADMIN_TITLE = 'ADMIN - MARCHANDO PARA O CEU'
+
 ROOT_URLCONF = 'igreja_cadastro.urls'
 
 # Python dotted path to the WSGI application used by Django's runserver.
@@ -146,6 +148,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # Uncomment the next line to enable the admin:
+    'grappelli',
     'django.contrib.admin',
     'cloudinary',
     'south',
