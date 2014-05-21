@@ -5,3 +5,4 @@ gunicorn==0.17.2
 psycopg2
 South==0.7.6
 cloudinary==1.0.14
+django-grappelli==2.4.8
